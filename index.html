@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+  <meta charset="utf-8">
+  <title>Global Views on Morality</title>
+</head>
+<body>
+	<script>
+	var width = 960,
+	    height = 500;
+
+	var svg = d3.select("body").append("svg")
+	    .attr("width", width)
+	    .attr("height", height);
+
+	var projection = d3.geo.mercator()
+	    .scale(140);
+
+	var path = d3.geo.path().projection(projection);
+
+	d3.json("world_countries.json", function (data) {
+		svg.selectAll("g")
+		.data(data.features)
+		.enter()
+		.append("g")
+		.append("path")
+		.attr("d", path)
+		.attr("class", "country")
+		.style('fill', 'lightBlue')
+        .style('stroke', 'black')
+        .style('stroke-width', 0.5);
+	});
+
+
+
+
+	</script>
+
+</body>
+</html>
