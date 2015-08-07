@@ -2,9 +2,23 @@
 <html>
 <head>
 <script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="http://d3js.org/queue.v1.min.js"></script>
+<script src="http://d3js.org/d3.geo.projection.v0.min.js"></script>
   <meta charset="utf-8">
   <title>Global Views on Morality</title>
 </head>
+
+<style>
+
+body {
+  background: #fcfcfa;
+}
+
+.country {
+  fill: #ddd;
+}
+</style>
+
 <body>
 	<script>
 	var width = 960,
@@ -14,23 +28,54 @@
 	    .attr("width", width)
 	    .attr("height", height);
 
-	var projection = d3.geo.mercator()
-	    .scale(140);
+	var projection = d3.geo.naturalEarth()
+    .scale(167)
+    .translate([width / 2.3, height / 2])
+    .precision(.1);
+
+	var color = d3.scale.linear()
+	    .domain([0,100])
+	    .range(["white", "red"]);
 
 	var path = d3.geo.path().projection(projection);
 
-	d3.json("world_countries.json", function (data) {
-		svg.selectAll("g")
-		.data(data.features)
+/*	d3.csv("/data/1.csv", function(csv_data){
+
+		var ByName = d3.nest()
+		    .key(function(d) {return d["Country"]})
+		    .entries(csv_data);
+		    	debugger;
+	})*/
+
+	queue()
+	.defer(d3.json, "world_countries.json")
+	.defer(d3.csv, "data/3.csv")
+	.await(ready);
+
+	function ready(error, world, questionaire) {
+		if (error) throw error;
+
+		var CountryByName = d3.nest()
+		    .key(function(d) {return d["Country"]})
+		    .sortValues(function(a,b) {return parseFloat(a["Morally unacceptable"]) - parseFloat(b["Morally unacceptable"]);})
+		    .map(questionaire, d3.map);
+
+
+		var country = svg.selectAll("g")
+		.data(world.features)
 		.enter()
 		.append("g")
 		.append("path")
 		.attr("d", path)
 		.attr("class", "country")
-		.style('fill', 'lightBlue')
-        .style('stroke', 'black')
+		.style('stroke', 'white')
         .style('stroke-width', 0.5);
-	});
+
+		country.filter(function(d) {return CountryByName.has(d.properties.name);})
+		.style('fill', function(d) {return color(parseFloat(CountryByName.get(d.properties.name)[0]["Morally unacceptable"]));});
+	};
+
+
 
 
 
