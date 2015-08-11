@@ -17,6 +17,17 @@ body {
 .country {
   fill: #ddd;
 }
+
+.text {
+  fill: black;
+  font: 10px sans-serif;
+  text-anchor: end;
+}
+
+.bar:hover {
+  fill: orange;
+}
+
 </style>
 
 <body>
@@ -49,10 +60,16 @@ body {
 
 		var CountryByName = d3.nest()
 		    .key(function(d) {return d["Country"]})
-		    .sortValues(function(a,b) {return parseFloat(a["Morally unacceptable"]) - parseFloat(b["Morally unacceptable"]);})
 		    .map(questionaire, d3.map);
 
-		var country = svg.selectAll("g")
+		var CountrySorted = d3.nest()
+		    .key(function(d) {return d["Country"]})
+		    .entries(questionaire);
+
+		    CountrySorted.sort(function(a,b) {return parseFloat(b.values[0]["Morally unacceptable"]) - parseFloat(a.values[0]["Morally unacceptable"]);});
+
+
+		var country = svg.append("g").selectAll("g")
 		.data(world.features)
 		.enter()
 		.append("g")
@@ -74,23 +91,49 @@ else {
 		}
 			});
 
-	/*	.style('fill', function(d) {return color(parseFloat(CountryByName.get(d.properties.name)[0]["Morally unacceptable"]));});*/
-
 		//bar chart
-	/*	var chart = svg.append("g")
+		var chart = svg.append("g")
 		    .attr("width", 300)
 		    .attr("height", 500)
-		    .attr("transform", "translate(900, 0)");
+		    .attr("transform", "translate(1000, 50)");
 
-		    chart.selectAll("div")
-		    .data(CountryByName.key)
+		    var countries = d3.keys(CountrySorted);
+
+
+
+		    var barwidth = 11;
+
+
+
+		    var bar = chart.selectAll("g")
+		    .data(CountrySorted)
 		    .enter()
-		    .append("div")
-		    .style("width", function(d) {return parseFloat(d["_"][0]["Morally unacceptable"]);})
-		    .text(function(d) {return d[0]["Morally unacceptable"];});
+		    .append("g")
+		    .attr("transform", function(d, i) { return "translate(0, " + i * barwidth + ")"});
 
 
-	*/
+		    bar.append("rect")
+		    .attr("class", "bar")
+		    .attr("width", function(d) {return parseFloat(CountryByName.get(d.key)[0]["Morally unacceptable"]);})
+		    .attr("height", 9)
+		    .attr("fill", "red");
+
+		    bar.append("text")
+		    .attr("class", "text")
+		    .attr("x", function(d) {return  - 10;})
+		    .attr("y", 0)
+		    .attr("dy", "0.8em")
+		    .text(function(d) { return d.key});
+
+		    /*bar.append("text")
+		    .attr("x", function(d) {return parseFloat(CountryByName.get(d)[0]["Morally unacceptable"]) - 10;})
+		    .attr("y", 0)
+		    .attr("dy", "0.55em")
+		    .style("text-anchor", "end")
+		    .text(function(d) { return d});*/
+
+
+	
 };
 	
 
