@@ -21,7 +21,7 @@ body {
 
 <body>
 	<script>
-	var width = 960,
+	var width = 1200,
 	    height = 500;
 
 	var svg = d3.select("body").append("svg")
@@ -30,7 +30,7 @@ body {
 
 	var projection = d3.geo.naturalEarth()
     .scale(167)
-    .translate([width / 2.3, height / 2])
+    .translate([width / 2.5, height / 2])
     .precision(.1);
 
 	var color = d3.scale.linear()
@@ -38,14 +38,6 @@ body {
 	    .range(["white", "red"]);
 
 	var path = d3.geo.path().projection(projection);
-
-/*	d3.csv("/data/1.csv", function(csv_data){
-
-		var ByName = d3.nest()
-		    .key(function(d) {return d["Country"]})
-		    .entries(csv_data);
-		    	debugger;
-	})*/
 
 	queue()
 	.defer(d3.json, "world_countries.json")
@@ -60,7 +52,6 @@ body {
 		    .sortValues(function(a,b) {return parseFloat(a["Morally unacceptable"]) - parseFloat(b["Morally unacceptable"]);})
 		    .map(questionaire, d3.map);
 
-
 		var country = svg.selectAll("g")
 		.data(world.features)
 		.enter()
@@ -69,12 +60,39 @@ body {
 		.attr("d", path)
 		.attr("class", "country")
 		.style('stroke', 'white')
-        .style('stroke-width', 0.5);
+        .style('stroke-width', 0.5)
+        .style('fill', 'red');
 
-		country.filter(function(d) {return CountryByName.has(d.properties.name);})
-		.style('fill', function(d) {return color(parseFloat(CountryByName.get(d.properties.name)[0]["Morally unacceptable"]));});
-	};
 
+
+
+		country.style('fill', function(d) { 
+			if (CountryByName.has(d.properties.name)) {
+				return color(parseFloat(CountryByName.get(d.properties.name)[0]["Morally unacceptable"]));}
+else {
+			return 'lightgrey';
+		}
+			});
+
+	/*	.style('fill', function(d) {return color(parseFloat(CountryByName.get(d.properties.name)[0]["Morally unacceptable"]));});*/
+
+		//bar chart
+	/*	var chart = svg.append("g")
+		    .attr("width", 300)
+		    .attr("height", 500)
+		    .attr("transform", "translate(900, 0)");
+
+		    chart.selectAll("div")
+		    .data(CountryByName.key)
+		    .enter()
+		    .append("div")
+		    .style("width", function(d) {return parseFloat(d["_"][0]["Morally unacceptable"]);})
+		    .text(function(d) {return d[0]["Morally unacceptable"];});
+
+
+	*/
+};
+	
 
 
 
