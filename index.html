@@ -4,40 +4,29 @@
 <script src="http://d3js.org/d3.v3.min.js"></script>
 <script src="http://d3js.org/queue.v1.min.js"></script>
 <script src="http://d3js.org/d3.geo.projection.v0.min.js"></script>
+<script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+<link rel="stylesheet" type="text/css" href="main.css">
   <meta charset="utf-8">
   <title>Global Views on Morality</title>
 </head>
 
-<style>
-
-body {
-  background: #fcfcfa;
-}
-
-.country {
-  fill: #ddd;
-}
-
-.text {
-  fill: black;
-  font: 10px sans-serif;
-  text-anchor: end;
-}
-
-.bar:hover {
-  fill: orange;
-}
-
-</style>
-
 <body>
+	<div id = "nav">
+		<div>
+			<p id = "header">Global Views on Morality</p>
+		</div>		
+	</div>
 	<script>
 	var width = 1200,
 	    height = 500;
 
+
+
 	var svg = d3.select("body").append("svg")
 	    .attr("width", width)
 	    .attr("height", height);
+
+
 
 	var projection = d3.geo.naturalEarth()
     .scale(167)
@@ -76,20 +65,41 @@ body {
 		.append("path")
 		.attr("d", path)
 		.attr("class", "country")
+		.attr("transform", "translate(25, 50)")
 		.style('stroke', 'white')
         .style('stroke-width', 0.5)
-        .style('fill', 'red');
+        .style('fill', function(d) { 
+			if (CountryByName.has(d.properties.name)) {
+				return color(parseFloat(CountryByName.get(d.properties.name)[0]["Morally unacceptable"]));}
+else {
+			return 'lightgrey';
+		}
+			})
+        .on("mouseover", function(d) {
+        	d3.select(this)
+        	.style('fill', 'orange');
 
-
-
-
-		country.style('fill', function(d) { 
+        	if (CountryByName.has(d.properties.name)) {
+				bar.select("#bar" + d.properties.name)
+				.style("fill", "orange");
+			}
+        })
+        .on("mouseout", function(d) {
+        	d3.select(this)
+        	.style('fill', function(d) { 
 			if (CountryByName.has(d.properties.name)) {
 				return color(parseFloat(CountryByName.get(d.properties.name)[0]["Morally unacceptable"]));}
 else {
 			return 'lightgrey';
 		}
 			});
+
+			if (CountryByName.has(d.properties.name)) {
+				bar.select("#bar" + d.properties.name)
+				.style("fill", "red");
+			}
+        });
+
 
 		//bar chart
 		var chart = svg.append("g")
@@ -98,7 +108,6 @@ else {
 		    .attr("transform", "translate(1000, 50)");
 
 		    var countries = d3.keys(CountrySorted);
-
 
 
 		    var barwidth = 11;
@@ -111,12 +120,51 @@ else {
 		    .append("g")
 		    .attr("transform", function(d, i) { return "translate(0, " + i * barwidth + ")"});
 
+		    	var tip = d3.tip()
+  .attr('class', 'd3-tip')
+  .offset([-10, 0])
+  .html(function(d) {
+    return "<strong>Percentage:</strong> <span style='color:red'>" + parseFloat(CountryByName.get(d.key)[0]["Morally unacceptable"]) + "</span>";
+  })
+
+	svg.call(tip);
+
+
 
 		    bar.append("rect")
 		    .attr("class", "bar")
-		    .attr("width", function(d) {return parseFloat(CountryByName.get(d.key)[0]["Morally unacceptable"]);})
+		    .attr("id", function (d) {return "bar" + d.key;})
+		    .attr("width", function (d) {return parseFloat(CountryByName.get(d.key)[0]["Morally unacceptable"]);})
 		    .attr("height", 9)
-		    .attr("fill", "red");
+		    .attr("fill", "red")
+		    .on('mouseover', function (d) {
+
+		    	d3.select(this)
+        	    .style('fill', 'orange');
+
+		    	country.filter(function (dd) {
+		    		return dd.properties.name === d.key;
+		    	})
+		    	.style("fill", "orange");
+
+		    	/*tip.show;*/})
+
+            .on('mouseout', function (d) {
+
+d3.select(this)
+        	.style('fill', 'red');
+
+		    	country.filter(function (dd) {
+		    		return dd.properties.name === d.key;
+		    	})
+		    	.style('fill', function(d) { 
+		    		debugger;
+				return color(parseFloat(CountryByName.get(d.properties.name)[0]["Morally unacceptable"]));
+			});
+
+		    	/*tip.hide;*/});
+
+
 
 		    bar.append("text")
 		    .attr("class", "text")
@@ -125,12 +173,6 @@ else {
 		    .attr("dy", "0.8em")
 		    .text(function(d) { return d.key});
 
-		    /*bar.append("text")
-		    .attr("x", function(d) {return parseFloat(CountryByName.get(d)[0]["Morally unacceptable"]) - 10;})
-		    .attr("y", 0)
-		    .attr("dy", "0.55em")
-		    .style("text-anchor", "end")
-		    .text(function(d) { return d});*/
 
 
 	
