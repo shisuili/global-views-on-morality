@@ -79,10 +79,12 @@ else {
         	d3.select(this)
         	.style('fill', 'orange');
 
-        	if (CountryByName.has(d.properties.name)) {
-				bar.select("#bar" + d.properties.name)
+				bar.select("rect").filter(function (dd) {
+		    		return dd.key === d.properties.name;
+		    	})
+
 				.style("fill", "orange");
-			}
+			
         })
         .on("mouseout", function(d) {
         	d3.select(this)
@@ -94,10 +96,13 @@ else {
 		}
 			});
 
-			if (CountryByName.has(d.properties.name)) {
-				bar.select("#bar" + d.properties.name)
+
+				bar.select("rect").filter(function (dd) {
+		    		return dd.key === d.properties.name;
+		    	})
+
 				.style("fill", "red");
-			}
+			
         });
 
 
@@ -133,7 +138,6 @@ else {
 
 		    bar.append("rect")
 		    .attr("class", "bar")
-		    .attr("id", function (d) {return "bar" + d.key;})
 		    .attr("width", function (d) {return parseFloat(CountryByName.get(d.key)[0]["Morally unacceptable"]);})
 		    .attr("height", 9)
 		    .attr("fill", "red")
@@ -147,7 +151,7 @@ else {
 		    	})
 		    	.style("fill", "orange");
 
-		    	/*tip.show;*/})
+		    	tip.show;})
 
             .on('mouseout', function (d) {
 
@@ -162,7 +166,7 @@ d3.select(this)
 				return color(parseFloat(CountryByName.get(d.properties.name)[0]["Morally unacceptable"]));
 			});
 
-		    	/*tip.hide;*/});
+		    	tip.hide;});
 
 
 
@@ -172,6 +176,7 @@ d3.select(this)
 		    .attr("y", 0)
 		    .attr("dy", "0.8em")
 		    .text(function(d) { return d.key});
+
 
 
 
