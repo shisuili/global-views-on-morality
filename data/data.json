@@ -1,0 +1,2921 @@
+[{"id":1,
+ "question":"Do you personally believe that Using contraceptives is morally acceptable, morally unacceptable, or is it not a moral issue?",
+ "results":
+ [
+  {
+    "Country": "United States",
+    "Morally acceptable": 52,
+    "Morally unacceptable": 7,
+    "Not a moral issue": 36,
+    "Depends on the situation (Volunteered)": 1,
+    "DK/Refused": 4,
+    "Total": 100
+  },
+  {
+    "Country": "Canada",
+    "Morally acceptable": 49,
+    "Morally unacceptable": 4,
+    "Not a moral issue": 43,
+    "Depends on the situation (Volunteered)": 1,
+    "DK/Refused": 3,
+    "Total": 100
+  },
+  {
+    "Country": "Britain",
+    "Morally acceptable": 62,
+    "Morally unacceptable": 3,
+    "Not a moral issue": 32,
+    "Depends on the situation (Volunteered)": 2,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "France",
+    "Morally acceptable": 56,
+    "Morally unacceptable": 4,
+    "Not a moral issue": 40,
+    "Depends on the situation (Volunteered)": 0,
+    "DK/Refused": 0,
+    "Total": 100
+  },
+  {
+    "Country": "Germany",
+    "Morally acceptable": 70,
+    "Morally unacceptable": 1,
+    "Not a moral issue": 28,
+    "Depends on the situation (Volunteered)": 0,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Italy",
+    "Morally acceptable": 59,
+    "Morally unacceptable": 6,
+    "Not a moral issue": 30,
+    "Depends on the situation (Volunteered)": 3,
+    "DK/Refused": 3,
+    "Total": 100
+  },
+  {
+    "Country": "Spain",
+    "Morally acceptable": 64,
+    "Morally unacceptable": 2,
+    "Not a moral issue": 32,
+    "Depends on the situation (Volunteered)": 1,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Greece",
+    "Morally acceptable": 45,
+    "Morally unacceptable": 14,
+    "Not a moral issue": 33,
+    "Depends on the situation (Volunteered)": 7,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Poland",
+    "Morally acceptable": 47,
+    "Morally unacceptable": 17,
+    "Not a moral issue": 24,
+    "Depends on the situation (Volunteered)": 9,
+    "DK/Refused": 3,
+    "Total": 100
+  },
+  {
+    "Country": "Czech Republic",
+    "Morally acceptable": 74,
+    "Morally unacceptable": 2,
+    "Not a moral issue": 21,
+    "Depends on the situation (Volunteered)": 1,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Russia",
+    "Morally acceptable": 62,
+    "Morally unacceptable": 7,
+    "Not a moral issue": 19,
+    "Depends on the situation (Volunteered)": 5,
+    "DK/Refused": 7,
+    "Total": 100
+  },
+  {
+    "Country": "Turkey",
+    "Morally acceptable": 42,
+    "Morally unacceptable": 21,
+    "Not a moral issue": 21,
+    "Depends on the situation (Volunteered)": 14,
+    "DK/Refused": 2,
+    "Total": 100
+  },
+  {
+    "Country": "Egypt",
+    "Morally acceptable": 35,
+    "Morally unacceptable": 7,
+    "Not a moral issue": 36,
+    "Depends on the situation (Volunteered)": 21,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Jordan",
+    "Morally acceptable": 38,
+    "Morally unacceptable": 6,
+    "Not a moral issue": 36,
+    "Depends on the situation (Volunteered)": 19,
+    "DK/Refused": 2,
+    "Total": 100
+  },
+  {
+    "Country": "Lebanon",
+    "Morally acceptable": 34,
+    "Morally unacceptable": 13,
+    "Not a moral issue": 31,
+    "Depends on the situation (Volunteered)": 20,
+    "DK/Refused": 3,
+    "Total": 100
+  },
+  {
+    "Country": "Palest. ter.",
+    "Morally acceptable": 40,
+    "Morally unacceptable": 14,
+    "Not a moral issue": 24,
+    "Depends on the situation (Volunteered)": 18,
+    "DK/Refused": 3,
+    "Total": 100
+  },
+  {
+    "Country": "Tunisia",
+    "Morally acceptable": 27,
+    "Morally unacceptable": 39,
+    "Not a moral issue": 17,
+    "Depends on the situation (Volunteered)": 15,
+    "DK/Refused": 2,
+    "Total": 100
+  },
+  {
+    "Country": "Israel",
+    "Morally acceptable": 44,
+    "Morally unacceptable": 17,
+    "Not a moral issue": 29,
+    "Depends on the situation (Volunteered)": 8,
+    "DK/Refused": 2,
+    "Total": 100
+  },
+  {
+    "Country": "Australia",
+    "Morally acceptable": 55,
+    "Morally unacceptable": 4,
+    "Not a moral issue": 39,
+    "Depends on the situation (Volunteered)": 1,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "China",
+    "Morally acceptable": 49,
+    "Morally unacceptable": 13,
+    "Not a moral issue": 28,
+    "Depends on the situation (Volunteered)": 5,
+    "DK/Refused": 6,
+    "Total": 100
+  },
+  {
+    "Country": "Indonesia",
+    "Morally acceptable": 65,
+    "Morally unacceptable": 10,
+    "Not a moral issue": 15,
+    "Depends on the situation (Volunteered)": 10,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Japan",
+    "Morally acceptable": 73,
+    "Morally unacceptable": 5,
+    "Not a moral issue": 18,
+    "Depends on the situation (Volunteered)": 1,
+    "DK/Refused": 3,
+    "Total": 100
+  },
+  {
+    "Country": "Malaysia",
+    "Morally acceptable": 21,
+    "Morally unacceptable": 40,
+    "Not a moral issue": 23,
+    "Depends on the situation (Volunteered)": 14,
+    "DK/Refused": 2,
+    "Total": 100
+  },
+  {
+    "Country": "Pakistan",
+    "Morally acceptable": 12,
+    "Morally unacceptable": 65,
+    "Not a moral issue": 7,
+    "Depends on the situation (Volunteered)": 8,
+    "DK/Refused": 8,
+    "Total": 100
+  },
+  {
+    "Country": "Philippines",
+    "Morally acceptable": 60,
+    "Morally unacceptable": 29,
+    "Not a moral issue": 9,
+    "Depends on the situation (Volunteered)": 1,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "South Korea",
+    "Morally acceptable": 49,
+    "Morally unacceptable": 14,
+    "Not a moral issue": 26,
+    "Depends on the situation (Volunteered)": 9,
+    "DK/Refused": 2,
+    "Total": 100
+  },
+  {
+    "Country": "Argentina",
+    "Morally acceptable": 69,
+    "Morally unacceptable": 6,
+    "Not a moral issue": 21,
+    "Depends on the situation (Volunteered)": 2,
+    "DK/Refused": 2,
+    "Total": 100
+  },
+  {
+    "Country": "Bolivia",
+    "Morally acceptable": 58,
+    "Morally unacceptable": 19,
+    "Not a moral issue": 13,
+    "Depends on the situation (Volunteered)": 5,
+    "DK/Refused": 5,
+    "Total": 100
+  },
+  {
+    "Country": "Brazil",
+    "Morally acceptable": 79,
+    "Morally unacceptable": 8,
+    "Not a moral issue": 11,
+    "Depends on the situation (Volunteered)": 1,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Chile",
+    "Morally acceptable": 75,
+    "Morally unacceptable": 6,
+    "Not a moral issue": 17,
+    "Depends on the situation (Volunteered)": 1,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "El Salvador",
+    "Morally acceptable": 63,
+    "Morally unacceptable": 23,
+    "Not a moral issue": 11,
+    "Depends on the situation (Volunteered)": 2,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Mexico",
+    "Morally acceptable": 63,
+    "Morally unacceptable": 14,
+    "Not a moral issue": 18,
+    "Depends on the situation (Volunteered)": 2,
+    "DK/Refused": 4,
+    "Total": 100
+  },
+  {
+    "Country": "Venezuela",
+    "Morally acceptable": 82,
+    "Morally unacceptable": 5,
+    "Not a moral issue": 8,
+    "Depends on the situation (Volunteered)": 3,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Ghana",
+    "Morally acceptable": 35,
+    "Morally unacceptable": 52,
+    "Not a moral issue": 7,
+    "Depends on the situation (Volunteered)": 6,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Kenya",
+    "Morally acceptable": 47,
+    "Morally unacceptable": 33,
+    "Not a moral issue": 11,
+    "Depends on the situation (Volunteered)": 7,
+    "DK/Refused": 2,
+    "Total": 100
+  },
+  {
+    "Country": "Nigeria",
+    "Morally acceptable": 17,
+    "Morally unacceptable": 54,
+    "Not a moral issue": 13,
+    "Depends on the situation (Volunteered)": 12,
+    "DK/Refused": 4,
+    "Total": 100
+  },
+  {
+    "Country": "Senegal",
+    "Morally acceptable": 51,
+    "Morally unacceptable": 28,
+    "Not a moral issue": 11,
+    "Depends on the situation (Volunteered)": 6,
+    "DK/Refused": 3,
+    "Total": 100
+  },
+  {
+    "Country": "South Africa",
+    "Morally acceptable": 68,
+    "Morally unacceptable": 15,
+    "Not a moral issue": 9,
+    "Depends on the situation (Volunteered)": 6,
+    "DK/Refused": 2,
+    "Total": 100
+  },
+  {
+    "Country": "Uganda",
+    "Morally acceptable": 51,
+    "Morally unacceptable": 38,
+    "Not a moral issue": 6,
+    "Depends on the situation (Volunteered)": 5,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "India",
+    "Morally acceptable": 59,
+    "Morally unacceptable": 22,
+    "Not a moral issue": 7,
+    "Depends on the situation (Volunteered)": 7,
+    "DK/Refused": 4,
+    "Total": 100
+  }
+]},
+{"id":2,
+ "question":"Do you personally believe that Getting a divorce is morally acceptable, morally unacceptable, or is it not a moral issue?",
+ "results":[
+  {
+    "Country": "United States",
+    "Morally acceptable": 33,
+    "Morally unacceptable": 22,
+    "Not a moral issue": 36,
+    "Depends on the situation (Volunteered)": 6,
+    "DK/Refused": 2,
+    "Total": 100
+  },
+  {
+    "Country": "Canada",
+    "Morally acceptable": 37,
+    "Morally unacceptable": 9,
+    "Not a moral issue": 47,
+    "Depends on the situation (Volunteered)": 5,
+    "DK/Refused": 2,
+    "Total": 100
+  },
+  {
+    "Country": "Britain",
+    "Morally acceptable": 41,
+    "Morally unacceptable": 9,
+    "Not a moral issue": 42,
+    "Depends on the situation (Volunteered)": 6,
+    "DK/Refused": 2,
+    "Total": 100
+  },
+  {
+    "Country": "France",
+    "Morally acceptable": 43,
+    "Morally unacceptable": 5,
+    "Not a moral issue": 52,
+    "Depends on the situation (Volunteered)": 0,
+    "DK/Refused": 0,
+    "Total": 100
+  },
+  {
+    "Country": "Germany",
+    "Morally acceptable": 58,
+    "Morally unacceptable": 7,
+    "Not a moral issue": 32,
+    "Depends on the situation (Volunteered)": 2,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Italy",
+    "Morally acceptable": 48,
+    "Morally unacceptable": 18,
+    "Not a moral issue": 23,
+    "Depends on the situation (Volunteered)": 9,
+    "DK/Refused": 2,
+    "Total": 100
+  },
+  {
+    "Country": "Spain",
+    "Morally acceptable": 57,
+    "Morally unacceptable": 4,
+    "Not a moral issue": 37,
+    "Depends on the situation (Volunteered)": 2,
+    "DK/Refused": 0,
+    "Total": 100
+  },
+  {
+    "Country": "Greece",
+    "Morally acceptable": 42,
+    "Morally unacceptable": 19,
+    "Not a moral issue": 28,
+    "Depends on the situation (Volunteered)": 12,
+    "DK/Refused": 0,
+    "Total": 100
+  },
+  {
+    "Country": "Poland",
+    "Morally acceptable": 35,
+    "Morally unacceptable": 22,
+    "Not a moral issue": 24,
+    "Depends on the situation (Volunteered)": 16,
+    "DK/Refused": 2,
+    "Total": 100
+  },
+  {
+    "Country": "Czech Republic",
+    "Morally acceptable": 60,
+    "Morally unacceptable": 11,
+    "Not a moral issue": 21,
+    "Depends on the situation (Volunteered)": 5,
+    "DK/Refused": 2,
+    "Total": 100
+  },
+  {
+    "Country": "Russia",
+    "Morally acceptable": 46,
+    "Morally unacceptable": 22,
+    "Not a moral issue": 13,
+    "Depends on the situation (Volunteered)": 16,
+    "DK/Refused": 3,
+    "Total": 100
+  },
+  {
+    "Country": "Turkey",
+    "Morally acceptable": 32,
+    "Morally unacceptable": 27,
+    "Not a moral issue": 24,
+    "Depends on the situation (Volunteered)": 16,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Egypt",
+    "Morally acceptable": 51,
+    "Morally unacceptable": 7,
+    "Not a moral issue": 30,
+    "Depends on the situation (Volunteered)": 11,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Jordan",
+    "Morally acceptable": 54,
+    "Morally unacceptable": 6,
+    "Not a moral issue": 29,
+    "Depends on the situation (Volunteered)": 10,
+    "DK/Refused": 2,
+    "Total": 100
+  },
+  {
+    "Country": "Lebanon",
+    "Morally acceptable": 48,
+    "Morally unacceptable": 9,
+    "Not a moral issue": 28,
+    "Depends on the situation (Volunteered)": 13,
+    "DK/Refused": 2,
+    "Total": 100
+  },
+  {
+    "Country": "Palest. ter.",
+    "Morally acceptable": 27,
+    "Morally unacceptable": 23,
+    "Not a moral issue": 27,
+    "Depends on the situation (Volunteered)": 22,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Tunisia",
+    "Morally acceptable": 16,
+    "Morally unacceptable": 46,
+    "Not a moral issue": 22,
+    "Depends on the situation (Volunteered)": 15,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Israel",
+    "Morally acceptable": 33,
+    "Morally unacceptable": 23,
+    "Not a moral issue": 34,
+    "Depends on the situation (Volunteered)": 11,
+    "DK/Refused": 0,
+    "Total": 100
+  },
+  {
+    "Country": "Australia",
+    "Morally acceptable": 43,
+    "Morally unacceptable": 9,
+    "Not a moral issue": 43,
+    "Depends on the situation (Volunteered)": 3,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "China",
+    "Morally acceptable": 45,
+    "Morally unacceptable": 25,
+    "Not a moral issue": 18,
+    "Depends on the situation (Volunteered)": 9,
+    "DK/Refused": 3,
+    "Total": 100
+  },
+  {
+    "Country": "Indonesia",
+    "Morally acceptable": 20,
+    "Morally unacceptable": 57,
+    "Not a moral issue": 10,
+    "Depends on the situation (Volunteered)": 13,
+    "DK/Refused": 0,
+    "Total": 100
+  },
+  {
+    "Country": "Japan",
+    "Morally acceptable": 55,
+    "Morally unacceptable": 13,
+    "Not a moral issue": 27,
+    "Depends on the situation (Volunteered)": 3,
+    "DK/Refused": 2,
+    "Total": 100
+  },
+  {
+    "Country": "Malaysia",
+    "Morally acceptable": 16,
+    "Morally unacceptable": 45,
+    "Not a moral issue": 22,
+    "Depends on the situation (Volunteered)": 15,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Pakistan",
+    "Morally acceptable": 10,
+    "Morally unacceptable": 73,
+    "Not a moral issue": 5,
+    "Depends on the situation (Volunteered)": 12,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Philippines",
+    "Morally acceptable": 25,
+    "Morally unacceptable": 67,
+    "Not a moral issue": 7,
+    "Depends on the situation (Volunteered)": 1,
+    "DK/Refused": 0,
+    "Total": 100
+  },
+  {
+    "Country": "South Korea",
+    "Morally acceptable": 32,
+    "Morally unacceptable": 25,
+    "Not a moral issue": 29,
+    "Depends on the situation (Volunteered)": 13,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Argentina",
+    "Morally acceptable": 60,
+    "Morally unacceptable": 17,
+    "Not a moral issue": 20,
+    "Depends on the situation (Volunteered)": 2,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Bolivia",
+    "Morally acceptable": 29,
+    "Morally unacceptable": 49,
+    "Not a moral issue": 10,
+    "Depends on the situation (Volunteered)": 9,
+    "DK/Refused": 2,
+    "Total": 100
+  },
+  {
+    "Country": "Brazil",
+    "Morally acceptable": 62,
+    "Morally unacceptable": 24,
+    "Not a moral issue": 10,
+    "Depends on the situation (Volunteered)": 4,
+    "DK/Refused": 0,
+    "Total": 100
+  },
+  {
+    "Country": "Chile",
+    "Morally acceptable": 64,
+    "Morally unacceptable": 17,
+    "Not a moral issue": 16,
+    "Depends on the situation (Volunteered)": 1,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "El Salvador",
+    "Morally acceptable": 30,
+    "Morally unacceptable": 48,
+    "Not a moral issue": 9,
+    "Depends on the situation (Volunteered)": 11,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Mexico",
+    "Morally acceptable": 41,
+    "Morally unacceptable": 33,
+    "Not a moral issue": 16,
+    "Depends on the situation (Volunteered)": 7,
+    "DK/Refused": 3,
+    "Total": 100
+  },
+  {
+    "Country": "Venezuela",
+    "Morally acceptable": 58,
+    "Morally unacceptable": 24,
+    "Not a moral issue": 8,
+    "Depends on the situation (Volunteered)": 9,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Ghana",
+    "Morally acceptable": 10,
+    "Morally unacceptable": 80,
+    "Not a moral issue": 2,
+    "Depends on the situation (Volunteered)": 8,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Kenya",
+    "Morally acceptable": 17,
+    "Morally unacceptable": 59,
+    "Not a moral issue": 13,
+    "Depends on the situation (Volunteered)": 10,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Nigeria",
+    "Morally acceptable": 12,
+    "Morally unacceptable": 61,
+    "Not a moral issue": 12,
+    "Depends on the situation (Volunteered)": 13,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Senegal",
+    "Morally acceptable": 35,
+    "Morally unacceptable": 32,
+    "Not a moral issue": 16,
+    "Depends on the situation (Volunteered)": 17,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "South Africa",
+    "Morally acceptable": 16,
+    "Morally unacceptable": 40,
+    "Not a moral issue": 15,
+    "Depends on the situation (Volunteered)": 27,
+    "DK/Refused": 2,
+    "Total": 100
+  },
+  {
+    "Country": "Uganda",
+    "Morally acceptable": 9,
+    "Morally unacceptable": 76,
+    "Not a moral issue": 6,
+    "Depends on the situation (Volunteered)": 10,
+    "DK/Refused": 0,
+    "Total": 100
+  },
+  {
+    "Country": "India",
+    "Morally acceptable": 18,
+    "Morally unacceptable": 53,
+    "Not a moral issue": 10,
+    "Depends on the situation (Volunteered)": 16,
+    "DK/Refused": 3,
+    "Total": 100
+  }
+],
+ },
+ {"id":3,
+ "question":"Do you personally believe that Having an abortion is morally acceptable, morally unacceptable, or is it not a moral issue?",
+ "results":[
+  {
+    "Country": "United States",
+    "Morally acceptable": 17,
+    "Morally unacceptable": 49,
+    "Not a moral issue": 23,
+    "Depends on the situation (Volunteered)": 9,
+    "DK/Refused": 2,
+    "Total": 100
+  },
+  {
+    "Country": "Canada",
+    "Morally acceptable": 26,
+    "Morally unacceptable": 26,
+    "Not a moral issue": 37,
+    "Depends on the situation (Volunteered)": 7,
+    "DK/Refused": 4,
+    "Total": 100
+  },
+  {
+    "Country": "Britain",
+    "Morally acceptable": 27,
+    "Morally unacceptable": 25,
+    "Not a moral issue": 28,
+    "Depends on the situation (Volunteered)": 16,
+    "DK/Refused": 4,
+    "Total": 100
+  },
+  {
+    "Country": "France",
+    "Morally acceptable": 38,
+    "Morally unacceptable": 14,
+    "Not a moral issue": 47,
+    "Depends on the situation (Volunteered)": 0,
+    "DK/Refused": 0,
+    "Total": 100
+  },
+  {
+    "Country": "Germany",
+    "Morally acceptable": 43,
+    "Morally unacceptable": 19,
+    "Not a moral issue": 25,
+    "Depends on the situation (Volunteered)": 11,
+    "DK/Refused": 2,
+    "Total": 100
+  },
+  {
+    "Country": "Italy",
+    "Morally acceptable": 25,
+    "Morally unacceptable": 41,
+    "Not a moral issue": 11,
+    "Depends on the situation (Volunteered)": 20,
+    "DK/Refused": 3,
+    "Total": 100
+  },
+  {
+    "Country": "Spain",
+    "Morally acceptable": 35,
+    "Morally unacceptable": 26,
+    "Not a moral issue": 28,
+    "Depends on the situation (Volunteered)": 8,
+    "DK/Refused": 2,
+    "Total": 100
+  },
+  {
+    "Country": "Greece",
+    "Morally acceptable": 16,
+    "Morally unacceptable": 54,
+    "Not a moral issue": 11,
+    "Depends on the situation (Volunteered)": 18,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Poland",
+    "Morally acceptable": 13,
+    "Morally unacceptable": 47,
+    "Not a moral issue": 13,
+    "Depends on the situation (Volunteered)": 24,
+    "DK/Refused": 3,
+    "Total": 100
+  },
+  {
+    "Country": "Czech Republic",
+    "Morally acceptable": 49,
+    "Morally unacceptable": 18,
+    "Not a moral issue": 18,
+    "Depends on the situation (Volunteered)": 12,
+    "DK/Refused": 3,
+    "Total": 100
+  },
+  {
+    "Country": "Russia",
+    "Morally acceptable": 25,
+    "Morally unacceptable": 44,
+    "Not a moral issue": 10,
+    "Depends on the situation (Volunteered)": 18,
+    "DK/Refused": 3,
+    "Total": 100
+  },
+  {
+    "Country": "Turkey",
+    "Morally acceptable": 18,
+    "Morally unacceptable": 52,
+    "Not a moral issue": 14,
+    "Depends on the situation (Volunteered)": 15,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Egypt",
+    "Morally acceptable": 5,
+    "Morally unacceptable": 62,
+    "Not a moral issue": 22,
+    "Depends on the situation (Volunteered)": 9,
+    "DK/Refused": 2,
+    "Total": 100
+  },
+  {
+    "Country": "Jordan",
+    "Morally acceptable": 4,
+    "Morally unacceptable": 53,
+    "Not a moral issue": 36,
+    "Depends on the situation (Volunteered)": 5,
+    "DK/Refused": 3,
+    "Total": 100
+  },
+  {
+    "Country": "Lebanon",
+    "Morally acceptable": 8,
+    "Morally unacceptable": 56,
+    "Not a moral issue": 18,
+    "Depends on the situation (Volunteered)": 15,
+    "DK/Refused": 2,
+    "Total": 100
+  },
+  {
+    "Country": "Palest. ter.",
+    "Morally acceptable": 7,
+    "Morally unacceptable": 54,
+    "Not a moral issue": 13,
+    "Depends on the situation (Volunteered)": 24,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Tunisia",
+    "Morally acceptable": 4,
+    "Morally unacceptable": 77,
+    "Not a moral issue": 6,
+    "Depends on the situation (Volunteered)": 11,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Israel",
+    "Morally acceptable": 25,
+    "Morally unacceptable": 35,
+    "Not a moral issue": 23,
+    "Depends on the situation (Volunteered)": 15,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Australia",
+    "Morally acceptable": 29,
+    "Morally unacceptable": 26,
+    "Not a moral issue": 32,
+    "Depends on the situation (Volunteered)": 10,
+    "DK/Refused": 3,
+    "Total": 100
+  },
+  {
+    "Country": "China",
+    "Morally acceptable": 29,
+    "Morally unacceptable": 37,
+    "Not a moral issue": 20,
+    "Depends on the situation (Volunteered)": 9,
+    "DK/Refused": 4,
+    "Total": 100
+  },
+  {
+    "Country": "Indonesia",
+    "Morally acceptable": 1,
+    "Morally unacceptable": 89,
+    "Not a moral issue": 1,
+    "Depends on the situation (Volunteered)": 8,
+    "DK/Refused": 0,
+    "Total": 100
+  },
+  {
+    "Country": "Japan",
+    "Morally acceptable": 44,
+    "Morally unacceptable": 28,
+    "Not a moral issue": 19,
+    "Depends on the situation (Volunteered)": 6,
+    "DK/Refused": 2,
+    "Total": 100
+  },
+  {
+    "Country": "Malaysia",
+    "Morally acceptable": 4,
+    "Morally unacceptable": 79,
+    "Not a moral issue": 8,
+    "Depends on the situation (Volunteered)": 9,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Pakistan",
+    "Morally acceptable": 1,
+    "Morally unacceptable": 85,
+    "Not a moral issue": 4,
+    "Depends on the situation (Volunteered)": 4,
+    "DK/Refused": 6,
+    "Total": 100
+  },
+  {
+    "Country": "Philippines",
+    "Morally acceptable": 2,
+    "Morally unacceptable": 93,
+    "Not a moral issue": 4,
+    "Depends on the situation (Volunteered)": 0,
+    "DK/Refused": 0,
+    "Total": 100
+  },
+  {
+    "Country": "South Korea",
+    "Morally acceptable": 19,
+    "Morally unacceptable": 58,
+    "Not a moral issue": 12,
+    "Depends on the situation (Volunteered)": 10,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Argentina",
+    "Morally acceptable": 16,
+    "Morally unacceptable": 56,
+    "Not a moral issue": 11,
+    "Depends on the situation (Volunteered)": 17,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Bolivia",
+    "Morally acceptable": 6,
+    "Morally unacceptable": 83,
+    "Not a moral issue": 4,
+    "Depends on the situation (Volunteered)": 7,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Brazil",
+    "Morally acceptable": 7,
+    "Morally unacceptable": 79,
+    "Not a moral issue": 9,
+    "Depends on the situation (Volunteered)": 4,
+    "DK/Refused": 0,
+    "Total": 100
+  },
+  {
+    "Country": "Chile",
+    "Morally acceptable": 15,
+    "Morally unacceptable": 64,
+    "Not a moral issue": 9,
+    "Depends on the situation (Volunteered)": 8,
+    "DK/Refused": 3,
+    "Total": 100
+  },
+  {
+    "Country": "El Salvador",
+    "Morally acceptable": 2,
+    "Morally unacceptable": 85,
+    "Not a moral issue": 3,
+    "Depends on the situation (Volunteered)": 10,
+    "DK/Refused": 0,
+    "Total": 100
+  },
+  {
+    "Country": "Mexico",
+    "Morally acceptable": 16,
+    "Morally unacceptable": 63,
+    "Not a moral issue": 12,
+    "Depends on the situation (Volunteered)": 8,
+    "DK/Refused": 2,
+    "Total": 100
+  },
+  {
+    "Country": "Venezuela",
+    "Morally acceptable": 8,
+    "Morally unacceptable": 77,
+    "Not a moral issue": 6,
+    "Depends on the situation (Volunteered)": 8,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Ghana",
+    "Morally acceptable": 2,
+    "Morally unacceptable": 92,
+    "Not a moral issue": 2,
+    "Depends on the situation (Volunteered)": 3,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Kenya",
+    "Morally acceptable": 3,
+    "Morally unacceptable": 82,
+    "Not a moral issue": 8,
+    "Depends on the situation (Volunteered)": 6,
+    "DK/Refused": 0,
+    "Total": 100
+  },
+  {
+    "Country": "Nigeria",
+    "Morally acceptable": 2,
+    "Morally unacceptable": 80,
+    "Not a moral issue": 10,
+    "Depends on the situation (Volunteered)": 7,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Senegal",
+    "Morally acceptable": 14,
+    "Morally unacceptable": 52,
+    "Not a moral issue": 22,
+    "Depends on the situation (Volunteered)": 10,
+    "DK/Refused": 2,
+    "Total": 100
+  },
+  {
+    "Country": "South Africa",
+    "Morally acceptable": 10,
+    "Morally unacceptable": 61,
+    "Not a moral issue": 8,
+    "Depends on the situation (Volunteered)": 19,
+    "DK/Refused": 2,
+    "Total": 100
+  },
+  {
+    "Country": "Uganda",
+    "Morally acceptable": 2,
+    "Morally unacceptable": 88,
+    "Not a moral issue": 6,
+    "Depends on the situation (Volunteered)": 4,
+    "DK/Refused": 0,
+    "Total": 100
+  },
+  {
+    "Country": "India",
+    "Morally acceptable": 17,
+    "Morally unacceptable": 58,
+    "Not a moral issue": 10,
+    "Depends on the situation (Volunteered)": 12,
+    "DK/Refused": 4,
+    "Total": 100
+  }
+]
+ },
+ {"id":4,
+ "question":"Do you personally believe that Homosexuality is morally acceptable, morally unacceptable, or is it not a moral issue?",
+ "results":[
+  {
+    "Country": "United States",
+    "Morally acceptable": 23,
+    "Morally unacceptable": 37,
+    "Not a moral issue": 35,
+    "Depends on the situation (Volunteered)": 1,
+    "DK/Refused": 4,
+    "Total": 100
+  },
+  {
+    "Country": "Canada",
+    "Morally acceptable": 30,
+    "Morally unacceptable": 15,
+    "Not a moral issue": 50,
+    "Depends on the situation (Volunteered)": 1,
+    "DK/Refused": 4,
+    "Total": 100
+  },
+  {
+    "Country": "Britain",
+    "Morally acceptable": 36,
+    "Morally unacceptable": 17,
+    "Not a moral issue": 43,
+    "Depends on the situation (Volunteered)": 2,
+    "DK/Refused": 3,
+    "Total": 100
+  },
+  {
+    "Country": "France",
+    "Morally acceptable": 36,
+    "Morally unacceptable": 14,
+    "Not a moral issue": 50,
+    "Depends on the situation (Volunteered)": 0,
+    "DK/Refused": 0,
+    "Total": 100
+  },
+  {
+    "Country": "Germany",
+    "Morally acceptable": 51,
+    "Morally unacceptable": 8,
+    "Not a moral issue": 38,
+    "Depends on the situation (Volunteered)": 0,
+    "DK/Refused": 3,
+    "Total": 100
+  },
+  {
+    "Country": "Italy",
+    "Morally acceptable": 42,
+    "Morally unacceptable": 19,
+    "Not a moral issue": 31,
+    "Depends on the situation (Volunteered)": 2,
+    "DK/Refused": 5,
+    "Total": 100
+  },
+  {
+    "Country": "Spain",
+    "Morally acceptable": 55,
+    "Morally unacceptable": 6,
+    "Not a moral issue": 38,
+    "Depends on the situation (Volunteered)": 0,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Greece",
+    "Morally acceptable": 24,
+    "Morally unacceptable": 45,
+    "Not a moral issue": 24,
+    "Depends on the situation (Volunteered)": 6,
+    "DK/Refused": 2,
+    "Total": 100
+  },
+  {
+    "Country": "Poland",
+    "Morally acceptable": 22,
+    "Morally unacceptable": 44,
+    "Not a moral issue": 26,
+    "Depends on the situation (Volunteered)": 3,
+    "DK/Refused": 6,
+    "Total": 100
+  },
+  {
+    "Country": "Czech Republic",
+    "Morally acceptable": 56,
+    "Morally unacceptable": 14,
+    "Not a moral issue": 27,
+    "Depends on the situation (Volunteered)": 1,
+    "DK/Refused": 3,
+    "Total": 100
+  },
+  {
+    "Country": "Russia",
+    "Morally acceptable": 9,
+    "Morally unacceptable": 72,
+    "Not a moral issue": 9,
+    "Depends on the situation (Volunteered)": 4,
+    "DK/Refused": 6,
+    "Total": 100
+  },
+  {
+    "Country": "Turkey",
+    "Morally acceptable": 4,
+    "Morally unacceptable": 78,
+    "Not a moral issue": 12,
+    "Depends on the situation (Volunteered)": 3,
+    "DK/Refused": 3,
+    "Total": 100
+  },
+  {
+    "Country": "Egypt",
+    "Morally acceptable": 1,
+    "Morally unacceptable": 95,
+    "Not a moral issue": 1,
+    "Depends on the situation (Volunteered)": 3,
+    "DK/Refused": 0,
+    "Total": 100
+  },
+  {
+    "Country": "Jordan",
+    "Morally acceptable": 2,
+    "Morally unacceptable": 95,
+    "Not a moral issue": 3,
+    "Depends on the situation (Volunteered)": 0,
+    "DK/Refused": 0,
+    "Total": 100
+  },
+  {
+    "Country": "Lebanon",
+    "Morally acceptable": 7,
+    "Morally unacceptable": 80,
+    "Not a moral issue": 11,
+    "Depends on the situation (Volunteered)": 1,
+    "DK/Refused": 2,
+    "Total": 100
+  },
+  {
+    "Country": "Palest. ter.",
+    "Morally acceptable": 1,
+    "Morally unacceptable": 94,
+    "Not a moral issue": 4,
+    "Depends on the situation (Volunteered)": 0,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Tunisia",
+    "Morally acceptable": 0,
+    "Morally unacceptable": 92,
+    "Not a moral issue": 4,
+    "Depends on the situation (Volunteered)": 2,
+    "DK/Refused": 2,
+    "Total": 100
+  },
+  {
+    "Country": "Israel",
+    "Morally acceptable": 27,
+    "Morally unacceptable": 43,
+    "Not a moral issue": 25,
+    "Depends on the situation (Volunteered)": 1,
+    "DK/Refused": 4,
+    "Total": 100
+  },
+  {
+    "Country": "Australia",
+    "Morally acceptable": 33,
+    "Morally unacceptable": 18,
+    "Not a moral issue": 45,
+    "Depends on the situation (Volunteered)": 1,
+    "DK/Refused": 2,
+    "Total": 100
+  },
+  {
+    "Country": "China",
+    "Morally acceptable": 13,
+    "Morally unacceptable": 61,
+    "Not a moral issue": 17,
+    "Depends on the situation (Volunteered)": 3,
+    "DK/Refused": 6,
+    "Total": 100
+  },
+  {
+    "Country": "Indonesia",
+    "Morally acceptable": 3,
+    "Morally unacceptable": 93,
+    "Not a moral issue": 2,
+    "Depends on the situation (Volunteered)": 1,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Japan",
+    "Morally acceptable": 38,
+    "Morally unacceptable": 31,
+    "Not a moral issue": 25,
+    "Depends on the situation (Volunteered)": 2,
+    "DK/Refused": 5,
+    "Total": 100
+  },
+  {
+    "Country": "Malaysia",
+    "Morally acceptable": 4,
+    "Morally unacceptable": 88,
+    "Not a moral issue": 6,
+    "Depends on the situation (Volunteered)": 2,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Pakistan",
+    "Morally acceptable": 1,
+    "Morally unacceptable": 85,
+    "Not a moral issue": 3,
+    "Depends on the situation (Volunteered)": 0,
+    "DK/Refused": 11,
+    "Total": 100
+  },
+  {
+    "Country": "Philippines",
+    "Morally acceptable": 25,
+    "Morally unacceptable": 65,
+    "Not a moral issue": 9,
+    "Depends on the situation (Volunteered)": 1,
+    "DK/Refused": 0,
+    "Total": 100
+  },
+  {
+    "Country": "South Korea",
+    "Morally acceptable": 18,
+    "Morally unacceptable": 57,
+    "Not a moral issue": 21,
+    "Depends on the situation (Volunteered)": 3,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Argentina",
+    "Morally acceptable": 49,
+    "Morally unacceptable": 27,
+    "Not a moral issue": 20,
+    "Depends on the situation (Volunteered)": 3,
+    "DK/Refused": 2,
+    "Total": 100
+  },
+  {
+    "Country": "Bolivia",
+    "Morally acceptable": 32,
+    "Morally unacceptable": 51,
+    "Not a moral issue": 9,
+    "Depends on the situation (Volunteered)": 2,
+    "DK/Refused": 5,
+    "Total": 100
+  },
+  {
+    "Country": "Brazil",
+    "Morally acceptable": 44,
+    "Morally unacceptable": 39,
+    "Not a moral issue": 14,
+    "Depends on the situation (Volunteered)": 2,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Chile",
+    "Morally acceptable": 45,
+    "Morally unacceptable": 32,
+    "Not a moral issue": 13,
+    "Depends on the situation (Volunteered)": 6,
+    "DK/Refused": 5,
+    "Total": 100
+  },
+  {
+    "Country": "El Salvador",
+    "Morally acceptable": 18,
+    "Morally unacceptable": 70,
+    "Not a moral issue": 9,
+    "Depends on the situation (Volunteered)": 3,
+    "DK/Refused": 0,
+    "Total": 100
+  },
+  {
+    "Country": "Mexico",
+    "Morally acceptable": 36,
+    "Morally unacceptable": 40,
+    "Not a moral issue": 15,
+    "Depends on the situation (Volunteered)": 4,
+    "DK/Refused": 5,
+    "Total": 100
+  },
+  {
+    "Country": "Venezuela",
+    "Morally acceptable": 32,
+    "Morally unacceptable": 49,
+    "Not a moral issue": 12,
+    "Depends on the situation (Volunteered)": 4,
+    "DK/Refused": 3,
+    "Total": 100
+  },
+  {
+    "Country": "Ghana",
+    "Morally acceptable": 1,
+    "Morally unacceptable": 98,
+    "Not a moral issue": 1,
+    "Depends on the situation (Volunteered)": 1,
+    "DK/Refused": 0,
+    "Total": 100
+  },
+  {
+    "Country": "Kenya",
+    "Morally acceptable": 3,
+    "Morally unacceptable": 88,
+    "Not a moral issue": 9,
+    "Depends on the situation (Volunteered)": 0,
+    "DK/Refused": 0,
+    "Total": 100
+  },
+  {
+    "Country": "Nigeria",
+    "Morally acceptable": 1,
+    "Morally unacceptable": 85,
+    "Not a moral issue": 11,
+    "Depends on the situation (Volunteered)": 1,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Senegal",
+    "Morally acceptable": 3,
+    "Morally unacceptable": 68,
+    "Not a moral issue": 26,
+    "Depends on the situation (Volunteered)": 0,
+    "DK/Refused": 2,
+    "Total": 100
+  },
+  {
+    "Country": "South Africa",
+    "Morally acceptable": 18,
+    "Morally unacceptable": 62,
+    "Not a moral issue": 12,
+    "Depends on the situation (Volunteered)": 5,
+    "DK/Refused": 3,
+    "Total": 100
+  },
+  {
+    "Country": "Uganda",
+    "Morally acceptable": 1,
+    "Morally unacceptable": 93,
+    "Not a moral issue": 5,
+    "Depends on the situation (Volunteered)": 1,
+    "DK/Refused": 0,
+    "Total": 100
+  },
+  {
+    "Country": "India",
+    "Morally acceptable": 9,
+    "Morally unacceptable": 67,
+    "Not a moral issue": 11,
+    "Depends on the situation (Volunteered)": 3,
+    "DK/Refused": 11,
+    "Total": 100
+  }
+]
+ },
+ {"id":5,
+ "question":"Do you personally believe that Drinking alcohol is morally acceptable, morally unacceptable, or is it not a moral issue?",
+ "results":[
+  {
+    "Country": "United States",
+    "Morally acceptable": 32,
+    "Morally unacceptable": 16,
+    "Not a moral issue": 46,
+    "Depends on the situation (Volunteered)": 4,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Canada",
+    "Morally acceptable": 31,
+    "Morally unacceptable": 9,
+    "Not a moral issue": 57,
+    "Depends on the situation (Volunteered)": 2,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Britain",
+    "Morally acceptable": 38,
+    "Morally unacceptable": 9,
+    "Not a moral issue": 47,
+    "Depends on the situation (Volunteered)": 5,
+    "DK/Refused": 2,
+    "Total": 100
+  },
+  {
+    "Country": "France",
+    "Morally acceptable": 25,
+    "Morally unacceptable": 18,
+    "Not a moral issue": 56,
+    "Depends on the situation (Volunteered)": 1,
+    "DK/Refused": 0,
+    "Total": 100
+  },
+  {
+    "Country": "Germany",
+    "Morally acceptable": 41,
+    "Morally unacceptable": 14,
+    "Not a moral issue": 40,
+    "Depends on the situation (Volunteered)": 4,
+    "DK/Refused": 2,
+    "Total": 100
+  },
+  {
+    "Country": "Italy",
+    "Morally acceptable": 15,
+    "Morally unacceptable": 27,
+    "Not a moral issue": 49,
+    "Depends on the situation (Volunteered)": 6,
+    "DK/Refused": 3,
+    "Total": 100
+  },
+  {
+    "Country": "Spain",
+    "Morally acceptable": 27,
+    "Morally unacceptable": 22,
+    "Not a moral issue": 46,
+    "Depends on the situation (Volunteered)": 4,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Greece",
+    "Morally acceptable": 22,
+    "Morally unacceptable": 23,
+    "Not a moral issue": 47,
+    "Depends on the situation (Volunteered)": 8,
+    "DK/Refused": 0,
+    "Total": 100
+  },
+  {
+    "Country": "Poland",
+    "Morally acceptable": 37,
+    "Morally unacceptable": 17,
+    "Not a moral issue": 34,
+    "Depends on the situation (Volunteered)": 10,
+    "DK/Refused": 2,
+    "Total": 100
+  },
+  {
+    "Country": "Czech Republic",
+    "Morally acceptable": 46,
+    "Morally unacceptable": 22,
+    "Not a moral issue": 24,
+    "Depends on the situation (Volunteered)": 7,
+    "DK/Refused": 2,
+    "Total": 100
+  },
+  {
+    "Country": "Russia",
+    "Morally acceptable": 26,
+    "Morally unacceptable": 44,
+    "Not a moral issue": 13,
+    "Depends on the situation (Volunteered)": 15,
+    "DK/Refused": 2,
+    "Total": 100
+  },
+  {
+    "Country": "Turkey",
+    "Morally acceptable": 10,
+    "Morally unacceptable": 69,
+    "Not a moral issue": 17,
+    "Depends on the situation (Volunteered)": 2,
+    "DK/Refused": 2,
+    "Total": 100
+  },
+  {
+    "Country": "Egypt",
+    "Morally acceptable": 5,
+    "Morally unacceptable": 75,
+    "Not a moral issue": 13,
+    "Depends on the situation (Volunteered)": 5,
+    "DK/Refused": 3,
+    "Total": 100
+  },
+  {
+    "Country": "Jordan",
+    "Morally acceptable": 3,
+    "Morally unacceptable": 85,
+    "Not a moral issue": 12,
+    "Depends on the situation (Volunteered)": 0,
+    "DK/Refused": 0,
+    "Total": 100
+  },
+  {
+    "Country": "Lebanon",
+    "Morally acceptable": 25,
+    "Morally unacceptable": 51,
+    "Not a moral issue": 21,
+    "Depends on the situation (Volunteered)": 1,
+    "DK/Refused": 2,
+    "Total": 100
+  },
+  {
+    "Country": "Palest. ter.",
+    "Morally acceptable": 1,
+    "Morally unacceptable": 89,
+    "Not a moral issue": 9,
+    "Depends on the situation (Volunteered)": 0,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Tunisia",
+    "Morally acceptable": 5,
+    "Morally unacceptable": 85,
+    "Not a moral issue": 6,
+    "Depends on the situation (Volunteered)": 3,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Israel",
+    "Morally acceptable": 27,
+    "Morally unacceptable": 29,
+    "Not a moral issue": 39,
+    "Depends on the situation (Volunteered)": 5,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Australia",
+    "Morally acceptable": 36,
+    "Morally unacceptable": 10,
+    "Not a moral issue": 46,
+    "Depends on the situation (Volunteered)": 7,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "China",
+    "Morally acceptable": 12,
+    "Morally unacceptable": 41,
+    "Not a moral issue": 37,
+    "Depends on the situation (Volunteered)": 7,
+    "DK/Refused": 4,
+    "Total": 100
+  },
+  {
+    "Country": "Indonesia",
+    "Morally acceptable": 2,
+    "Morally unacceptable": 85,
+    "Not a moral issue": 8,
+    "Depends on the situation (Volunteered)": 4,
+    "DK/Refused": 0,
+    "Total": 100
+  },
+  {
+    "Country": "Japan",
+    "Morally acceptable": 66,
+    "Morally unacceptable": 6,
+    "Not a moral issue": 25,
+    "Depends on the situation (Volunteered)": 2,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Malaysia",
+    "Morally acceptable": 10,
+    "Morally unacceptable": 70,
+    "Not a moral issue": 15,
+    "Depends on the situation (Volunteered)": 4,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Pakistan",
+    "Morally acceptable": 1,
+    "Morally unacceptable": 94,
+    "Not a moral issue": 2,
+    "Depends on the situation (Volunteered)": 2,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Philippines",
+    "Morally acceptable": 34,
+    "Morally unacceptable": 39,
+    "Not a moral issue": 24,
+    "Depends on the situation (Volunteered)": 2,
+    "DK/Refused": 0,
+    "Total": 100
+  },
+  {
+    "Country": "South Korea",
+    "Morally acceptable": 34,
+    "Morally unacceptable": 22,
+    "Not a moral issue": 35,
+    "Depends on the situation (Volunteered)": 9,
+    "DK/Refused": 0,
+    "Total": 100
+  },
+  {
+    "Country": "Argentina",
+    "Morally acceptable": 26,
+    "Morally unacceptable": 42,
+    "Not a moral issue": 27,
+    "Depends on the situation (Volunteered)": 3,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Bolivia",
+    "Morally acceptable": 13,
+    "Morally unacceptable": 69,
+    "Not a moral issue": 12,
+    "Depends on the situation (Volunteered)": 5,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Brazil",
+    "Morally acceptable": 29,
+    "Morally unacceptable": 47,
+    "Not a moral issue": 20,
+    "Depends on the situation (Volunteered)": 3,
+    "DK/Refused": 0,
+    "Total": 100
+  },
+  {
+    "Country": "Chile",
+    "Morally acceptable": 29,
+    "Morally unacceptable": 31,
+    "Not a moral issue": 31,
+    "Depends on the situation (Volunteered)": 6,
+    "DK/Refused": 2,
+    "Total": 100
+  },
+  {
+    "Country": "El Salvador",
+    "Morally acceptable": 8,
+    "Morally unacceptable": 82,
+    "Not a moral issue": 8,
+    "Depends on the situation (Volunteered)": 2,
+    "DK/Refused": 0,
+    "Total": 100
+  },
+  {
+    "Country": "Mexico",
+    "Morally acceptable": 21,
+    "Morally unacceptable": 41,
+    "Not a moral issue": 31,
+    "Depends on the situation (Volunteered)": 4,
+    "DK/Refused": 3,
+    "Total": 100
+  },
+  {
+    "Country": "Venezuela",
+    "Morally acceptable": 36,
+    "Morally unacceptable": 39,
+    "Not a moral issue": 17,
+    "Depends on the situation (Volunteered)": 7,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Ghana",
+    "Morally acceptable": 8,
+    "Morally unacceptable": 80,
+    "Not a moral issue": 8,
+    "Depends on the situation (Volunteered)": 3,
+    "DK/Refused": 0,
+    "Total": 100
+  },
+  {
+    "Country": "Kenya",
+    "Morally acceptable": 9,
+    "Morally unacceptable": 59,
+    "Not a moral issue": 24,
+    "Depends on the situation (Volunteered)": 7,
+    "DK/Refused": 0,
+    "Total": 100
+  },
+  {
+    "Country": "Nigeria",
+    "Morally acceptable": 6,
+    "Morally unacceptable": 68,
+    "Not a moral issue": 17,
+    "Depends on the situation (Volunteered)": 7,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Senegal",
+    "Morally acceptable": 9,
+    "Morally unacceptable": 63,
+    "Not a moral issue": 24,
+    "Depends on the situation (Volunteered)": 3,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "South Africa",
+    "Morally acceptable": 22,
+    "Morally unacceptable": 36,
+    "Not a moral issue": 25,
+    "Depends on the situation (Volunteered)": 13,
+    "DK/Refused": 4,
+    "Total": 100
+  },
+  {
+    "Country": "Uganda",
+    "Morally acceptable": 19,
+    "Morally unacceptable": 57,
+    "Not a moral issue": 14,
+    "Depends on the situation (Volunteered)": 8,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "India",
+    "Morally acceptable": 10,
+    "Morally unacceptable": 66,
+    "Not a moral issue": 16,
+    "Depends on the situation (Volunteered)": 4,
+    "DK/Refused": 4,
+    "Total": 100
+  }
+]
+ },
+ {"id":6,
+ "question":"Do you personally believe that Married people having an affair is morally acceptable, morally unacceptable, or is it not a moral issue?",
+ "results":[
+  {
+    "Country": "United States",
+    "Morally acceptable": 4,
+    "Morally unacceptable": 84,
+    "Not a moral issue": 10,
+    "Depends on the situation (Volunteered)": 1,
+    "DK/Refused": 2,
+    "Total": 100
+  },
+  {
+    "Country": "Canada",
+    "Morally acceptable": 4,
+    "Morally unacceptable": 76,
+    "Not a moral issue": 17,
+    "Depends on the situation (Volunteered)": 1,
+    "DK/Refused": 2,
+    "Total": 100
+  },
+  {
+    "Country": "Britain",
+    "Morally acceptable": 4,
+    "Morally unacceptable": 76,
+    "Not a moral issue": 15,
+    "Depends on the situation (Volunteered)": 2,
+    "DK/Refused": 3,
+    "Total": 100
+  },
+  {
+    "Country": "France",
+    "Morally acceptable": 12,
+    "Morally unacceptable": 47,
+    "Not a moral issue": 40,
+    "Depends on the situation (Volunteered)": 0,
+    "DK/Refused": 0,
+    "Total": 100
+  },
+  {
+    "Country": "Germany",
+    "Morally acceptable": 11,
+    "Morally unacceptable": 60,
+    "Not a moral issue": 26,
+    "Depends on the situation (Volunteered)": 1,
+    "DK/Refused": 2,
+    "Total": 100
+  },
+  {
+    "Country": "Italy",
+    "Morally acceptable": 10,
+    "Morally unacceptable": 64,
+    "Not a moral issue": 16,
+    "Depends on the situation (Volunteered)": 7,
+    "DK/Refused": 3,
+    "Total": 100
+  },
+  {
+    "Country": "Spain",
+    "Morally acceptable": 8,
+    "Morally unacceptable": 64,
+    "Not a moral issue": 27,
+    "Depends on the situation (Volunteered)": 1,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Greece",
+    "Morally acceptable": 5,
+    "Morally unacceptable": 79,
+    "Not a moral issue": 12,
+    "Depends on the situation (Volunteered)": 5,
+    "DK/Refused": 0,
+    "Total": 100
+  },
+  {
+    "Country": "Poland",
+    "Morally acceptable": 9,
+    "Morally unacceptable": 71,
+    "Not a moral issue": 13,
+    "Depends on the situation (Volunteered)": 4,
+    "DK/Refused": 3,
+    "Total": 100
+  },
+  {
+    "Country": "Czech Republic",
+    "Morally acceptable": 17,
+    "Morally unacceptable": 66,
+    "Not a moral issue": 10,
+    "Depends on the situation (Volunteered)": 4,
+    "DK/Refused": 3,
+    "Total": 100
+  },
+  {
+    "Country": "Russia",
+    "Morally acceptable": 7,
+    "Morally unacceptable": 69,
+    "Not a moral issue": 9,
+    "Depends on the situation (Volunteered)": 10,
+    "DK/Refused": 4,
+    "Total": 100
+  },
+  {
+    "Country": "Turkey",
+    "Morally acceptable": 2,
+    "Morally unacceptable": 94,
+    "Not a moral issue": 2,
+    "Depends on the situation (Volunteered)": 1,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Egypt",
+    "Morally acceptable": 2,
+    "Morally unacceptable": 93,
+    "Not a moral issue": 4,
+    "Depends on the situation (Volunteered)": 0,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Jordan",
+    "Morally acceptable": 1,
+    "Morally unacceptable": 93,
+    "Not a moral issue": 5,
+    "Depends on the situation (Volunteered)": 0,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Lebanon",
+    "Morally acceptable": 0,
+    "Morally unacceptable": 92,
+    "Not a moral issue": 3,
+    "Depends on the situation (Volunteered)": 3,
+    "DK/Refused": 2,
+    "Total": 100
+  },
+  {
+    "Country": "Palest. ter.",
+    "Morally acceptable": 1,
+    "Morally unacceptable": 94,
+    "Not a moral issue": 4,
+    "Depends on the situation (Volunteered)": 1,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Tunisia",
+    "Morally acceptable": 3,
+    "Morally unacceptable": 90,
+    "Not a moral issue": 4,
+    "Depends on the situation (Volunteered)": 3,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Israel",
+    "Morally acceptable": 11,
+    "Morally unacceptable": 73,
+    "Not a moral issue": 13,
+    "Depends on the situation (Volunteered)": 3,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Australia",
+    "Morally acceptable": 4,
+    "Morally unacceptable": 79,
+    "Not a moral issue": 13,
+    "Depends on the situation (Volunteered)": 3,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "China",
+    "Morally acceptable": 8,
+    "Morally unacceptable": 74,
+    "Not a moral issue": 12,
+    "Depends on the situation (Volunteered)": 3,
+    "DK/Refused": 3,
+    "Total": 100
+  },
+  {
+    "Country": "Indonesia",
+    "Morally acceptable": 1,
+    "Morally unacceptable": 93,
+    "Not a moral issue": 4,
+    "Depends on the situation (Volunteered)": 2,
+    "DK/Refused": 0,
+    "Total": 100
+  },
+  {
+    "Country": "Japan",
+    "Morally acceptable": 12,
+    "Morally unacceptable": 69,
+    "Not a moral issue": 14,
+    "Depends on the situation (Volunteered)": 1,
+    "DK/Refused": 4,
+    "Total": 100
+  },
+  {
+    "Country": "Malaysia",
+    "Morally acceptable": 2,
+    "Morally unacceptable": 90,
+    "Not a moral issue": 6,
+    "Depends on the situation (Volunteered)": 2,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Pakistan",
+    "Morally acceptable": 0,
+    "Morally unacceptable": 92,
+    "Not a moral issue": 3,
+    "Depends on the situation (Volunteered)": 0,
+    "DK/Refused": 4,
+    "Total": 100
+  },
+  {
+    "Country": "Philippines",
+    "Morally acceptable": 5,
+    "Morally unacceptable": 90,
+    "Not a moral issue": 4,
+    "Depends on the situation (Volunteered)": 1,
+    "DK/Refused": 0,
+    "Total": 100
+  },
+  {
+    "Country": "South Korea",
+    "Morally acceptable": 8,
+    "Morally unacceptable": 81,
+    "Not a moral issue": 8,
+    "Depends on the situation (Volunteered)": 2,
+    "DK/Refused": 0,
+    "Total": 100
+  },
+  {
+    "Country": "Argentina",
+    "Morally acceptable": 11,
+    "Morally unacceptable": 72,
+    "Not a moral issue": 12,
+    "Depends on the situation (Volunteered)": 3,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Bolivia",
+    "Morally acceptable": 7,
+    "Morally unacceptable": 84,
+    "Not a moral issue": 6,
+    "Depends on the situation (Volunteered)": 3,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Brazil",
+    "Morally acceptable": 6,
+    "Morally unacceptable": 84,
+    "Not a moral issue": 9,
+    "Depends on the situation (Volunteered)": 1,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Chile",
+    "Morally acceptable": 13,
+    "Morally unacceptable": 67,
+    "Not a moral issue": 16,
+    "Depends on the situation (Volunteered)": 3,
+    "DK/Refused": 2,
+    "Total": 100
+  },
+  {
+    "Country": "El Salvador",
+    "Morally acceptable": 4,
+    "Morally unacceptable": 89,
+    "Not a moral issue": 4,
+    "Depends on the situation (Volunteered)": 2,
+    "DK/Refused": 0,
+    "Total": 100
+  },
+  {
+    "Country": "Mexico",
+    "Morally acceptable": 9,
+    "Morally unacceptable": 73,
+    "Not a moral issue": 12,
+    "Depends on the situation (Volunteered)": 4,
+    "DK/Refused": 2,
+    "Total": 100
+  },
+  {
+    "Country": "Venezuela",
+    "Morally acceptable": 12,
+    "Morally unacceptable": 76,
+    "Not a moral issue": 9,
+    "Depends on the situation (Volunteered)": 2,
+    "DK/Refused": 2,
+    "Total": 100
+  },
+  {
+    "Country": "Ghana",
+    "Morally acceptable": 10,
+    "Morally unacceptable": 86,
+    "Not a moral issue": 2,
+    "Depends on the situation (Volunteered)": 2,
+    "DK/Refused": 0,
+    "Total": 100
+  },
+  {
+    "Country": "Kenya",
+    "Morally acceptable": 8,
+    "Morally unacceptable": 80,
+    "Not a moral issue": 7,
+    "Depends on the situation (Volunteered)": 3,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Nigeria",
+    "Morally acceptable": 7,
+    "Morally unacceptable": 77,
+    "Not a moral issue": 12,
+    "Depends on the situation (Volunteered)": 3,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Senegal",
+    "Morally acceptable": 5,
+    "Morally unacceptable": 68,
+    "Not a moral issue": 24,
+    "Depends on the situation (Volunteered)": 2,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "South Africa",
+    "Morally acceptable": 11,
+    "Morally unacceptable": 65,
+    "Not a moral issue": 11,
+    "Depends on the situation (Volunteered)": 11,
+    "DK/Refused": 2,
+    "Total": 100
+  },
+  {
+    "Country": "Uganda",
+    "Morally acceptable": 7,
+    "Morally unacceptable": 80,
+    "Not a moral issue": 8,
+    "Depends on the situation (Volunteered)": 4,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "India",
+    "Morally acceptable": 14,
+    "Morally unacceptable": 62,
+    "Not a moral issue": 13,
+    "Depends on the situation (Volunteered)": 5,
+    "DK/Refused": 7,
+    "Total": 100
+  }
+]
+ },
+ {"id":7,
+ "question":"Do you personally believe that g. Gambling is morally acceptable, morally unacceptable, or is it not a moral issue?",
+ "results":[
+  {
+    "Country": "United States",
+    "Morally acceptable": 25,
+    "Morally unacceptable": 24,
+    "Not a moral issue": 47,
+    "Depends on the situation (Volunteered)": 2,
+    "DK/Refused": 2,
+    "Total": 100
+  },
+  {
+    "Country": "Canada",
+    "Morally acceptable": 19,
+    "Morally unacceptable": 23,
+    "Not a moral issue": 55,
+    "Depends on the situation (Volunteered)": 2,
+    "DK/Refused": 2,
+    "Total": 100
+  },
+  {
+    "Country": "Britain",
+    "Morally acceptable": 22,
+    "Morally unacceptable": 26,
+    "Not a moral issue": 45,
+    "Depends on the situation (Volunteered)": 5,
+    "DK/Refused": 2,
+    "Total": 100
+  },
+  {
+    "Country": "France",
+    "Morally acceptable": 31,
+    "Morally unacceptable": 13,
+    "Not a moral issue": 56,
+    "Depends on the situation (Volunteered)": 0,
+    "DK/Refused": 0,
+    "Total": 100
+  },
+  {
+    "Country": "Germany",
+    "Morally acceptable": 25,
+    "Morally unacceptable": 31,
+    "Not a moral issue": 41,
+    "Depends on the situation (Volunteered)": 2,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Italy",
+    "Morally acceptable": 12,
+    "Morally unacceptable": 33,
+    "Not a moral issue": 48,
+    "Depends on the situation (Volunteered)": 4,
+    "DK/Refused": 2,
+    "Total": 100
+  },
+  {
+    "Country": "Spain",
+    "Morally acceptable": 17,
+    "Morally unacceptable": 28,
+    "Not a moral issue": 51,
+    "Depends on the situation (Volunteered)": 1,
+    "DK/Refused": 3,
+    "Total": 100
+  },
+  {
+    "Country": "Greece",
+    "Morally acceptable": 7,
+    "Morally unacceptable": 52,
+    "Not a moral issue": 37,
+    "Depends on the situation (Volunteered)": 4,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Poland",
+    "Morally acceptable": 22,
+    "Morally unacceptable": 33,
+    "Not a moral issue": 38,
+    "Depends on the situation (Volunteered)": 4,
+    "DK/Refused": 4,
+    "Total": 100
+  },
+  {
+    "Country": "Czech Republic",
+    "Morally acceptable": 11,
+    "Morally unacceptable": 65,
+    "Not a moral issue": 19,
+    "Depends on the situation (Volunteered)": 2,
+    "DK/Refused": 2,
+    "Total": 100
+  },
+  {
+    "Country": "Russia",
+    "Morally acceptable": 10,
+    "Morally unacceptable": 62,
+    "Not a moral issue": 18,
+    "Depends on the situation (Volunteered)": 5,
+    "DK/Refused": 4,
+    "Total": 100
+  },
+  {
+    "Country": "Turkey",
+    "Morally acceptable": 5,
+    "Morally unacceptable": 80,
+    "Not a moral issue": 12,
+    "Depends on the situation (Volunteered)": 1,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Egypt",
+    "Morally acceptable": 3,
+    "Morally unacceptable": 91,
+    "Not a moral issue": 5,
+    "Depends on the situation (Volunteered)": 0,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Jordan",
+    "Morally acceptable": 2,
+    "Morally unacceptable": 91,
+    "Not a moral issue": 6,
+    "Depends on the situation (Volunteered)": 0,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Lebanon",
+    "Morally acceptable": 4,
+    "Morally unacceptable": 77,
+    "Not a moral issue": 17,
+    "Depends on the situation (Volunteered)": 0,
+    "DK/Refused": 2,
+    "Total": 100
+  },
+  {
+    "Country": "Palest. ter.",
+    "Morally acceptable": 1,
+    "Morally unacceptable": 91,
+    "Not a moral issue": 7,
+    "Depends on the situation (Volunteered)": 0,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Tunisia",
+    "Morally acceptable": 2,
+    "Morally unacceptable": 91,
+    "Not a moral issue": 4,
+    "Depends on the situation (Volunteered)": 2,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Israel",
+    "Morally acceptable": 16,
+    "Morally unacceptable": 51,
+    "Not a moral issue": 30,
+    "Depends on the situation (Volunteered)": 2,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Australia",
+    "Morally acceptable": 18,
+    "Morally unacceptable": 36,
+    "Not a moral issue": 39,
+    "Depends on the situation (Volunteered)": 5,
+    "DK/Refused": 2,
+    "Total": 100
+  },
+  {
+    "Country": "China",
+    "Morally acceptable": 8,
+    "Morally unacceptable": 55,
+    "Not a moral issue": 28,
+    "Depends on the situation (Volunteered)": 5,
+    "DK/Refused": 4,
+    "Total": 100
+  },
+  {
+    "Country": "Indonesia",
+    "Morally acceptable": 2,
+    "Morally unacceptable": 88,
+    "Not a moral issue": 8,
+    "Depends on the situation (Volunteered)": 2,
+    "DK/Refused": 0,
+    "Total": 100
+  },
+  {
+    "Country": "Japan",
+    "Morally acceptable": 38,
+    "Morally unacceptable": 31,
+    "Not a moral issue": 28,
+    "Depends on the situation (Volunteered)": 2,
+    "DK/Refused": 2,
+    "Total": 100
+  },
+  {
+    "Country": "Malaysia",
+    "Morally acceptable": 8,
+    "Morally unacceptable": 76,
+    "Not a moral issue": 13,
+    "Depends on the situation (Volunteered)": 3,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Pakistan",
+    "Morally acceptable": 0,
+    "Morally unacceptable": 95,
+    "Not a moral issue": 3,
+    "Depends on the situation (Volunteered)": 0,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Philippines",
+    "Morally acceptable": 20,
+    "Morally unacceptable": 61,
+    "Not a moral issue": 18,
+    "Depends on the situation (Volunteered)": 0,
+    "DK/Refused": 0,
+    "Total": 100
+  },
+  {
+    "Country": "South Korea",
+    "Morally acceptable": 7,
+    "Morally unacceptable": 78,
+    "Not a moral issue": 12,
+    "Depends on the situation (Volunteered)": 2,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Argentina",
+    "Morally acceptable": 20,
+    "Morally unacceptable": 49,
+    "Not a moral issue": 25,
+    "Depends on the situation (Volunteered)": 3,
+    "DK/Refused": 3,
+    "Total": 100
+  },
+  {
+    "Country": "Bolivia",
+    "Morally acceptable": 11,
+    "Morally unacceptable": 61,
+    "Not a moral issue": 17,
+    "Depends on the situation (Volunteered)": 4,
+    "DK/Refused": 7,
+    "Total": 100
+  },
+  {
+    "Country": "Brazil",
+    "Morally acceptable": 15,
+    "Morally unacceptable": 64,
+    "Not a moral issue": 19,
+    "Depends on the situation (Volunteered)": 1,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Chile",
+    "Morally acceptable": 15,
+    "Morally unacceptable": 48,
+    "Not a moral issue": 27,
+    "Depends on the situation (Volunteered)": 6,
+    "DK/Refused": 3,
+    "Total": 100
+  },
+  {
+    "Country": "El Salvador",
+    "Morally acceptable": 6,
+    "Morally unacceptable": 82,
+    "Not a moral issue": 10,
+    "Depends on the situation (Volunteered)": 1,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Mexico",
+    "Morally acceptable": 13,
+    "Morally unacceptable": 49,
+    "Not a moral issue": 30,
+    "Depends on the situation (Volunteered)": 4,
+    "DK/Refused": 4,
+    "Total": 100
+  },
+  {
+    "Country": "Venezuela",
+    "Morally acceptable": 20,
+    "Morally unacceptable": 59,
+    "Not a moral issue": 15,
+    "Depends on the situation (Volunteered)": 3,
+    "DK/Refused": 2,
+    "Total": 100
+  },
+  {
+    "Country": "Ghana",
+    "Morally acceptable": 3,
+    "Morally unacceptable": 91,
+    "Not a moral issue": 3,
+    "Depends on the situation (Volunteered)": 3,
+    "DK/Refused": 0,
+    "Total": 100
+  },
+  {
+    "Country": "Kenya",
+    "Morally acceptable": 5,
+    "Morally unacceptable": 65,
+    "Not a moral issue": 21,
+    "Depends on the situation (Volunteered)": 5,
+    "DK/Refused": 4,
+    "Total": 100
+  },
+  {
+    "Country": "Nigeria",
+    "Morally acceptable": 1,
+    "Morally unacceptable": 77,
+    "Not a moral issue": 16,
+    "Depends on the situation (Volunteered)": 2,
+    "DK/Refused": 3,
+    "Total": 100
+  },
+  {
+    "Country": "Senegal",
+    "Morally acceptable": 7,
+    "Morally unacceptable": 63,
+    "Not a moral issue": 21,
+    "Depends on the situation (Volunteered)": 8,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "South Africa",
+    "Morally acceptable": 18,
+    "Morally unacceptable": 40,
+    "Not a moral issue": 27,
+    "Depends on the situation (Volunteered)": 10,
+    "DK/Refused": 5,
+    "Total": 100
+  },
+  {
+    "Country": "Uganda",
+    "Morally acceptable": 3,
+    "Morally unacceptable": 80,
+    "Not a moral issue": 11,
+    "Depends on the situation (Volunteered)": 3,
+    "DK/Refused": 3,
+    "Total": 100
+  },
+  {
+    "Country": "India",
+    "Morally acceptable": 7,
+    "Morally unacceptable": 69,
+    "Not a moral issue": 16,
+    "Depends on the situation (Volunteered)": 3,
+    "DK/Refused": 4,
+    "Total": 100
+  }
+]
+ },
+ {"id":8,
+ "question":"Do you personally believe that h. Sex between unmarried adults is morally acceptable, morally unacceptable, or is it not a moral issue?",
+ "results":[
+  {
+    "Country": "United States",
+    "Morally acceptable": 29,
+    "Morally unacceptable": 30,
+    "Not a moral issue": 36,
+    "Depends on the situation (Volunteered)": 1,
+    "DK/Refused": 3,
+    "Total": 100
+  },
+  {
+    "Country": "Canada",
+    "Morally acceptable": 34,
+    "Morally unacceptable": 15,
+    "Not a moral issue": 47,
+    "Depends on the situation (Volunteered)": 1,
+    "DK/Refused": 2,
+    "Total": 100
+  },
+  {
+    "Country": "Britain",
+    "Morally acceptable": 38,
+    "Morally unacceptable": 13,
+    "Not a moral issue": 44,
+    "Depends on the situation (Volunteered)": 3,
+    "DK/Refused": 2,
+    "Total": 100
+  },
+  {
+    "Country": "France",
+    "Morally acceptable": 47,
+    "Morally unacceptable": 6,
+    "Not a moral issue": 47,
+    "Depends on the situation (Volunteered)": 0,
+    "DK/Refused": 0,
+    "Total": 100
+  },
+  {
+    "Country": "Germany",
+    "Morally acceptable": 57,
+    "Morally unacceptable": 6,
+    "Not a moral issue": 34,
+    "Depends on the situation (Volunteered)": 1,
+    "DK/Refused": 2,
+    "Total": 100
+  },
+  {
+    "Country": "Italy",
+    "Morally acceptable": 42,
+    "Morally unacceptable": 11,
+    "Not a moral issue": 41,
+    "Depends on the situation (Volunteered)": 4,
+    "DK/Refused": 2,
+    "Total": 100
+  },
+  {
+    "Country": "Spain",
+    "Morally acceptable": 52,
+    "Morally unacceptable": 8,
+    "Not a moral issue": 39,
+    "Depends on the situation (Volunteered)": 0,
+    "DK/Refused": 0,
+    "Total": 100
+  },
+  {
+    "Country": "Greece",
+    "Morally acceptable": 59,
+    "Morally unacceptable": 11,
+    "Not a moral issue": 27,
+    "Depends on the situation (Volunteered)": 2,
+    "DK/Refused": 0,
+    "Total": 100
+  },
+  {
+    "Country": "Poland",
+    "Morally acceptable": 44,
+    "Morally unacceptable": 22,
+    "Not a moral issue": 21,
+    "Depends on the situation (Volunteered)": 9,
+    "DK/Refused": 4,
+    "Total": 100
+  },
+  {
+    "Country": "Czech Republic",
+    "Morally acceptable": 67,
+    "Morally unacceptable": 10,
+    "Not a moral issue": 18,
+    "Depends on the situation (Volunteered)": 2,
+    "DK/Refused": 3,
+    "Total": 100
+  },
+  {
+    "Country": "Russia",
+    "Morally acceptable": 40,
+    "Morally unacceptable": 30,
+    "Not a moral issue": 10,
+    "Depends on the situation (Volunteered)": 15,
+    "DK/Refused": 4,
+    "Total": 100
+  },
+  {
+    "Country": "Turkey",
+    "Morally acceptable": 5,
+    "Morally unacceptable": 91,
+    "Not a moral issue": 2,
+    "Depends on the situation (Volunteered)": 1,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Egypt",
+    "Morally acceptable": 2,
+    "Morally unacceptable": 90,
+    "Not a moral issue": 6,
+    "Depends on the situation (Volunteered)": 1,
+    "DK/Refused": 0,
+    "Total": 100
+  },
+  {
+    "Country": "Jordan",
+    "Morally acceptable": 1,
+    "Morally unacceptable": 95,
+    "Not a moral issue": 3,
+    "Depends on the situation (Volunteered)": 0,
+    "DK/Refused": 0,
+    "Total": 100
+  },
+  {
+    "Country": "Lebanon",
+    "Morally acceptable": 5,
+    "Morally unacceptable": 81,
+    "Not a moral issue": 8,
+    "Depends on the situation (Volunteered)": 3,
+    "DK/Refused": 2,
+    "Total": 100
+  },
+  {
+    "Country": "Palest. ter.",
+    "Morally acceptable": 1,
+    "Morally unacceptable": 94,
+    "Not a moral issue": 4,
+    "Depends on the situation (Volunteered)": 0,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Tunisia",
+    "Morally acceptable": 4,
+    "Morally unacceptable": 89,
+    "Not a moral issue": 3,
+    "Depends on the situation (Volunteered)": 2,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Israel",
+    "Morally acceptable": 36,
+    "Morally unacceptable": 37,
+    "Not a moral issue": 22,
+    "Depends on the situation (Volunteered)": 3,
+    "DK/Refused": 2,
+    "Total": 100
+  },
+  {
+    "Country": "Australia",
+    "Morally acceptable": 34,
+    "Morally unacceptable": 15,
+    "Not a moral issue": 47,
+    "Depends on the situation (Volunteered)": 1,
+    "DK/Refused": 2,
+    "Total": 100
+  },
+  {
+    "Country": "China",
+    "Morally acceptable": 12,
+    "Morally unacceptable": 58,
+    "Not a moral issue": 17,
+    "Depends on the situation (Volunteered)": 6,
+    "DK/Refused": 7,
+    "Total": 100
+  },
+  {
+    "Country": "Indonesia",
+    "Morally acceptable": 1,
+    "Morally unacceptable": 97,
+    "Not a moral issue": 1,
+    "Depends on the situation (Volunteered)": 1,
+    "DK/Refused": 0,
+    "Total": 100
+  },
+  {
+    "Country": "Japan",
+    "Morally acceptable": 47,
+    "Morally unacceptable": 21,
+    "Not a moral issue": 26,
+    "Depends on the situation (Volunteered)": 2,
+    "DK/Refused": 4,
+    "Total": 100
+  },
+  {
+    "Country": "Malaysia",
+    "Morally acceptable": 3,
+    "Morally unacceptable": 87,
+    "Not a moral issue": 5,
+    "Depends on the situation (Volunteered)": 3,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Pakistan",
+    "Morally acceptable": 0,
+    "Morally unacceptable": 94,
+    "Not a moral issue": 2,
+    "Depends on the situation (Volunteered)": 0,
+    "DK/Refused": 3,
+    "Total": 100
+  },
+  {
+    "Country": "Philippines",
+    "Morally acceptable": 20,
+    "Morally unacceptable": 71,
+    "Not a moral issue": 7,
+    "Depends on the situation (Volunteered)": 1,
+    "DK/Refused": 0,
+    "Total": 100
+  },
+  {
+    "Country": "South Korea",
+    "Morally acceptable": 27,
+    "Morally unacceptable": 35,
+    "Not a moral issue": 29,
+    "Depends on the situation (Volunteered)": 6,
+    "DK/Refused": 2,
+    "Total": 100
+  },
+  {
+    "Country": "Argentina",
+    "Morally acceptable": 45,
+    "Morally unacceptable": 22,
+    "Not a moral issue": 27,
+    "Depends on the situation (Volunteered)": 3,
+    "DK/Refused": 2,
+    "Total": 100
+  },
+  {
+    "Country": "Bolivia",
+    "Morally acceptable": 22,
+    "Morally unacceptable": 53,
+    "Not a moral issue": 11,
+    "Depends on the situation (Volunteered)": 8,
+    "DK/Refused": 7,
+    "Total": 100
+  },
+  {
+    "Country": "Brazil",
+    "Morally acceptable": 47,
+    "Morally unacceptable": 35,
+    "Not a moral issue": 14,
+    "Depends on the situation (Volunteered)": 3,
+    "DK/Refused": 0,
+    "Total": 100
+  },
+  {
+    "Country": "Chile",
+    "Morally acceptable": 54,
+    "Morally unacceptable": 13,
+    "Not a moral issue": 26,
+    "Depends on the situation (Volunteered)": 6,
+    "DK/Refused": 2,
+    "Total": 100
+  },
+  {
+    "Country": "El Salvador",
+    "Morally acceptable": 22,
+    "Morally unacceptable": 56,
+    "Not a moral issue": 14,
+    "Depends on the situation (Volunteered)": 7,
+    "DK/Refused": 0,
+    "Total": 100
+  },
+  {
+    "Country": "Mexico",
+    "Morally acceptable": 26,
+    "Morally unacceptable": 44,
+    "Not a moral issue": 21,
+    "Depends on the situation (Volunteered)": 7,
+    "DK/Refused": 3,
+    "Total": 100
+  },
+  {
+    "Country": "Venezuela",
+    "Morally acceptable": 61,
+    "Morally unacceptable": 21,
+    "Not a moral issue": 13,
+    "Depends on the situation (Volunteered)": 4,
+    "DK/Refused": 2,
+    "Total": 100
+  },
+  {
+    "Country": "Ghana",
+    "Morally acceptable": 6,
+    "Morally unacceptable": 86,
+    "Not a moral issue": 4,
+    "Depends on the situation (Volunteered)": 3,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Kenya",
+    "Morally acceptable": 4,
+    "Morally unacceptable": 79,
+    "Not a moral issue": 13,
+    "Depends on the situation (Volunteered)": 3,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "Nigeria",
+    "Morally acceptable": 3,
+    "Morally unacceptable": 77,
+    "Not a moral issue": 13,
+    "Depends on the situation (Volunteered)": 6,
+    "DK/Refused": 2,
+    "Total": 100
+  },
+  {
+    "Country": "Senegal",
+    "Morally acceptable": 6,
+    "Morally unacceptable": 63,
+    "Not a moral issue": 26,
+    "Depends on the situation (Volunteered)": 4,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "South Africa",
+    "Morally acceptable": 21,
+    "Morally unacceptable": 48,
+    "Not a moral issue": 17,
+    "Depends on the situation (Volunteered)": 11,
+    "DK/Refused": 2,
+    "Total": 100
+  },
+  {
+    "Country": "Uganda",
+    "Morally acceptable": 9,
+    "Morally unacceptable": 77,
+    "Not a moral issue": 9,
+    "Depends on the situation (Volunteered)": 5,
+    "DK/Refused": 1,
+    "Total": 100
+  },
+  {
+    "Country": "India",
+    "Morally acceptable": 10,
+    "Morally unacceptable": 67,
+    "Not a moral issue": 11,
+    "Depends on the situation (Volunteered)": 4,
+    "DK/Refused": 8,
+    "Total": 100
+  }
+]
+ }
+]

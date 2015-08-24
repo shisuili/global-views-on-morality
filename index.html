@@ -5,7 +5,16 @@
 <script src="http://d3js.org/queue.v1.min.js"></script>
 <script src="http://d3js.org/d3.geo.projection.v0.min.js"></script>
 <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <link rel="stylesheet" type="text/css" href="main.css">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   <meta charset="utf-8">
   <title>Global Views on Morality</title>
 </head>
@@ -16,16 +25,26 @@
 			<p id = "header">Global Views on Morality</p>
 		</div>		
 	</div>
+	<!-- Single button -->
+<div class="btn-group" style="margin-top:30px">
+  <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Moral Issues <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu">
+    <li><a onclick="updateData(1)">Contraception Use</a></li>
+    <li><a onclick="updateData(2)">Divorce</a></li>
+    <li><a onclick="updateData(3)">Abortion</a></li>
+    <li><a onclick="updateData(4)">Homosexuality</a></li>
+    <li><a onclick="updateData(5)">Alcohol Use</a></li>
+    <li><a onclick="updateData(6)">Extramarital Affairs</a></li>
+    <li><a onclick="updateData(7)">Gambling</a></li>
+    <li><a onclick="updateData(8)">Premarital Sex</a><input onclick="updateData(8)" /></li>
+  </ul>
+</div>
+
 	<script>
 	var width = 1200,
 	    height = 500;
-
-
-
-	var svg = d3.select("body").append("svg")
-	    .attr("width", width)
-	    .attr("height", height);
-
 
 
 	var projection = d3.geo.naturalEarth()
@@ -34,14 +53,33 @@
     .precision(.1);
 
 	var color = d3.scale.linear()
-	    .domain([0,100])
-	    .range(["white", "red"]);
+	    .domain([0,70,100])
+	    .range(["white", "red", "black"]);
 
 	var path = d3.geo.path().projection(projection);
 
+	var issues = ["Contraception Use", "Divorce", "Abortion", "Homosexuality", "Alcohol Use",
+	"Extramarital Affairs", "Gambling", "Premarital Sex"];
+
+/*	var buttons = d3.select("body").append("div").attr("class", "issues")
+	    .selectAll("div")
+	    .data(issues)
+	    .enter()
+	    .append("div")
+	    .style("background-color", "orange")
+	    .style("width", "100px")
+	    .text(function (d) {return d;});*/
+
+	    var svg = d3.select("body").append("div").attr("class", "map")
+	    .append("svg")
+	    .attr("width", width)
+	    .attr("height", height);
+
+	
+
 	queue()
 	.defer(d3.json, "world_countries.json")
-	.defer(d3.csv, "data/3.csv")
+	.defer(d3.csv, "data/1.csv")
 	.await(ready);
 
 	function ready(error, world, questionaire) {
@@ -65,7 +103,7 @@
 		.append("path")
 		.attr("d", path)
 		.attr("class", "country")
-		.attr("transform", "translate(25, 50)")
+		.attr("transform", "translate(50, -20)")
 		.style('stroke', 'white')
         .style('stroke-width', 0.5)
         .style('fill', function(d) { 
@@ -77,13 +115,13 @@ else {
 			})
         .on("mouseover", function(d) {
         	d3.select(this)
-        	.style('fill', 'orange');
+        	.style('fill', 'steelblue');
 
 				bar.select("rect").filter(function (dd) {
 		    		return dd.key === d.properties.name;
 		    	})
 
-				.style("fill", "orange");
+				.style("fill", "steelblue");
 			
         })
         .on("mouseout", function(d) {
@@ -101,7 +139,7 @@ else {
 		    		return dd.key === d.properties.name;
 		    	})
 
-				.style("fill", "red");
+				.style("fill", "#ff7f0e");
 			
         });
 
@@ -110,7 +148,7 @@ else {
 		var chart = svg.append("g")
 		    .attr("width", 300)
 		    .attr("height", 500)
-		    .attr("transform", "translate(1000, 50)");
+		    .attr("transform", "translate(1000, 0)");
 
 		    var countries = d3.keys(CountrySorted);
 
@@ -123,7 +161,10 @@ else {
 		    .data(CountrySorted)
 		    .enter()
 		    .append("g")
+		    .attr("class", "bar")
 		    .attr("transform", function(d, i) { return "translate(0, " + i * barwidth + ")"});
+
+		    
 
 		    	var tip = d3.tip()
   .attr('class', 'd3-tip')
@@ -135,38 +176,47 @@ else {
 	svg.call(tip);
 
 
-
 		    bar.append("rect")
-		    .attr("class", "bar")
 		    .attr("width", function (d) {return parseFloat(CountryByName.get(d.key)[0]["Morally unacceptable"]);})
 		    .attr("height", 9)
-		    .attr("fill", "red")
+		    .attr("fill", "#ff7f0e")
 		    .on('mouseover', function (d) {
 
 		    	d3.select(this)
-        	    .style('fill', 'orange');
+        	    .style('fill', 'steelblue');
 
 		    	country.filter(function (dd) {
 		    		return dd.properties.name === d.key;
 		    	})
-		    	.style("fill", "orange");
+		    	.style("fill", "steelblue");
 
 		    	tip.show;})
 
             .on('mouseout', function (d) {
 
 d3.select(this)
-        	.style('fill', 'red');
+        	.style('fill', '#ff7f0e');
 
 		    	country.filter(function (dd) {
 		    		return dd.properties.name === d.key;
 		    	})
 		    	.style('fill', function(d) { 
-		    		debugger;
 				return color(parseFloat(CountryByName.get(d.properties.name)[0]["Morally unacceptable"]));
 			});
 
 		    	tip.hide;});
+
+            bar.append("rect")
+            .attr("x", function (d) {return parseFloat(CountryByName.get(d.key)[0]["Morally unacceptable"]);})
+		    .attr("width", function (d) {return parseFloat(CountryByName.get(d.key)[0]["Morally acceptable"]);})
+		    .attr("height", 9)
+		    .attr("fill", "#2ca02c");
+
+		    bar.append("rect")
+		    .attr("x", function (d) {return parseFloat(CountryByName.get(d.key)[0]["Morally unacceptable"]) + parseFloat(CountryByName.get(d.key)[0]["Morally acceptable"]);})
+		    .attr("width", function (d) {return parseFloat(CountryByName.get(d.key)[0]["Not a moral issue"]);})
+		    .attr("height", 9)
+		    .attr("fill", "#c7c7c7");
 
 
 
@@ -177,11 +227,60 @@ d3.select(this)
 		    .attr("dy", "0.8em")
 		    .text(function(d) { return d.key});
 
+		    bar.append("rect")
+		    .attr("width", 100)
+		    .attr("height", 9)
+		    .style("fill", "pink")
+		    .style("fill-opacity", 0)
+		    .style("stroke", "#7f7f7f")
+		    .style("stroke-width", 1)
+
+		    .on('mouseover', function (d) {
+
+		    	d3.select(this)
+        	    .style("fill", "white")
+		    .style("fill-opacity", 0.3);
+
+		    	country.filter(function (dd) {
+		    		return dd.properties.name === d.key;
+		    	})
+		    	.style("fill", "steelblue");
+
+		    	tip.show;})
+
+            .on('mouseout', function (d) {
+
+d3.select(this)
+        	.style("fill", "pink")
+		    .style("fill-opacity", 0);
+
+		    	country.filter(function (dd) {
+		    		return dd.properties.name === d.key;
+		    	})
+		    	.style('fill', function(d) { 
+				return color(parseFloat(CountryByName.get(d.properties.name)[0]["Morally unacceptable"]));
+			});
+
+		    	tip.hide;});
+
 
 
 
 	
-};
+     };
+
+     /*Upate data*/
+
+	var NumOfQues = 1;
+
+	function updateData(d) {
+		var ques = "data/" + d + ".csv";
+
+		queue()
+	.defer(d3.json, "world_countries.json")
+	.defer(d3.csv, ques)
+	.await(ready);
+	};
 	
 
 

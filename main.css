@@ -3,7 +3,7 @@ body {
 }
 
 #nav {
-    background: #FFF;
+    background: #000;
     width: 100%;
     position: absolute;
     top: 0;
@@ -31,10 +31,6 @@ body {
   fill: black;
   font: 10px sans-serif;
   text-anchor: end;
-}
-
-.bar:hover {
-  fill: orange;
 }
 
 .d3-tip {
