@@ -2,23 +2,6 @@ body {
   background: #fcfcfa;
 }
 
-#nav {
-    background: #000;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 10001;
-    text-transform: uppercase;
-    border-bottom: 1px solid #333;
-    box-shadow: 0 1px 6px rgba(0,0,0,.4);
-}
-
-#header {
-	fill: white;
-}
-
 .country {
   fill: #ddd;
 }
@@ -33,6 +16,43 @@ body {
   text-anchor: end;
 }
 
+header h1 {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  padding: 24px;
+  padding-left: 48px;
+}
+
+header p {
+  padding-left: 48px;
+  padding-right: 48px;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 14px;
+  color: gray;
+}
+
+mark {
+  font-size: 16px;
+}
+
+strong {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.question {
+  font-family: 'Oxygen', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  
+}
+
+.btn-group {
+  padding-left: 48px;
+}
+
 .d3-tip {
   line-height: 1;
   font-weight: bold;
@@ -42,22 +62,29 @@ body {
   border-radius: 2px;
 }
 
-/* Creates a small triangle extender for the tooltip */
-.d3-tip:after {
-  box-sizing: border-box;
-  display: inline;
-  font-size: 10px;
-  width: 100%;
-  line-height: 1;
-  color: rgba(0, 0, 0, 0.8);
-  content: "\25BC";
-  position: absolute;
-  text-align: center;
+#tooltip {
+        position: absolute;
+        width: 200px;
+        height: auto;
+        margin-top: 300px;
+        padding: 10px;
+        background-color: white;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+        -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+        box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+        pointer-events: none;
 }
 
-/* Style northward tooltips differently */
-.d3-tip.n:after {
-  margin: -1px 0 0 0;
-  top: 100%;
-  left: 0;
+#tooltip.hidden {
+        display: none;
+}
+
+#tooltip p {
+        margin: 0;
+        font-family: sans-serif;
+        font-size: 14px;
+        line-height: 20px;
 }

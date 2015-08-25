@@ -4,7 +4,6 @@
 <script src="http://d3js.org/d3.v3.min.js"></script>
 <script src="http://d3js.org/queue.v1.min.js"></script>
 <script src="http://d3js.org/d3.geo.projection.v0.min.js"></script>
-<script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <link rel="stylesheet" type="text/css" href="main.css">
 <!-- Latest compiled and minified CSS -->
@@ -13,6 +12,9 @@
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
 
+<link href='https://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Oxygen:300' rel='stylesheet' type='text/css'>
+
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   <meta charset="utf-8">
@@ -20,13 +22,14 @@
 </head>
 
 <body>
-	<div id = "nav">
-		<div>
-			<p id = "header">Global Views on Morality</p>
-		</div>		
-	</div>
+
 	<!-- Single button -->
-<div class="btn-group" style="margin-top:30px">
+	<header>
+		<h1>Global Views on Morality</h1>
+		<p>The Pew Research Center’s 2013 Global Attitudes survey asked 40,117 respondents in 40 countries what they thought about eight topics often discussed as moral issues: extramarital affairs, gambling, homosexuality, abortion, premarital sex, alcohol consumption, divorce, and the use of contraceptives.</p>
+	</header>
+	<hr>
+<div class="btn-group">
   <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     Moral Issues <span class="caret"></span>
   </button>
@@ -38,28 +41,51 @@
     <li><a onclick="updateData(5)">Alcohol Use</a></li>
     <li><a onclick="updateData(6)">Extramarital Affairs</a></li>
     <li><a onclick="updateData(7)">Gambling</a></li>
-    <li><a onclick="updateData(8)">Premarital Sex</a><input onclick="updateData(8)" /></li>
+    <li><a onclick="updateData(8)">Premarital Sex</a></li>
   </ul>
 </div>
 
+<div id="tooltip" class="hidden">
+        <p><strong id ="location">Important Label Heading</strong></p>
+        <p>Morally unacceptable: <span id="unacpt">100%</span></p>
+        <p>Morally acceptable: <span id="acpt">100%</span></p>
+        <p>Not a moral issue: <span id="notIssu">100%</span></p>
+</div>
+
+
 	<script>
-	var width = 1200,
+	var width = 1100,
 	    height = 500;
+
+	d3.select("body").append("h5")
+	.attr("class", "question")
+	.text("issues")
+	.style("margin-top", "-25px")
+	.style("margin-left", "200px");
 
 
 	var projection = d3.geo.naturalEarth()
-    .scale(167)
+    .scale(147)
     .translate([width / 2.5, height / 2])
     .precision(.1);
 
 	var color = d3.scale.linear()
-	    .domain([0,70,100])
-	    .range(["white", "red", "black"]);
+	    .domain([0,30,100])
+	    .range(["#8ca252", "#CCCC00", "#e6550d"]);
 
 	var path = d3.geo.path().projection(projection);
 
 	var issues = ["Contraception Use", "Divorce", "Abortion", "Homosexuality", "Alcohol Use",
 	"Extramarital Affairs", "Gambling", "Premarital Sex"];
+
+	var questions = ['<p>Do you personally believe that <strong>USING CONTRACEPTIVES</strong> is <mark style="color:#e6550d">morally unacceptable</mark>, <mark style="color:#8ca252">morally acceptable</mark>, or is it <mark style="color:gray">not a moral issue</mark>?</p>',
+	'<p>Do you personally believe that <strong>GETTING A DIVORCE</strong> is <mark style="color:#e6550d">morally unacceptable</mark>, <mark style="color:#8ca252">morally acceptable</mark>, or is it <mark style="color:gray">not a moral issue</mark>?</p>',
+	'<p>Do you personally believe that <strong>HAVING AN ABORTION</strong> is <mark style="color:#e6550d">morally unacceptable</mark>, <mark style="color:#8ca252">morally acceptable</mark>, or is it <mark style="color:gray">not a moral issue</mark>?</p>',
+	'<p>Do you personally believe that <strong>HOMOSEXUALITY </strong> is <mark style="color:#e6550d">morally unacceptable</mark>, <mark style="color:#8ca252">morally acceptable</mark>, or is it <mark style="color:gray">not a moral issue</mark>?</p>',
+	'<p>Do you personally believe that <strong>DRINKING ALCOHOL</strong> is <mark style="color:#e6550d">morally unacceptable</mark>, <mark style="color:#8ca252">morally acceptable</mark>, or is it <mark style="color:gray">not a moral issue</mark>?</p>',
+	'<p>Do you personally believe that <strong>MARRIED PEOPLE HAVING AN AFFAIR</strong> is <mark style="color:#e6550d">morally unacceptable</mark>, <mark style="color:#8ca252">morally acceptable</mark>, or is it <mark style="color:gray">not a moral issue</mark>?</p>',
+	'<p>Do you personally believe that <strong>GAMBLING</strong> is <mark style="color:#e6550d">morally unacceptable</mark>, <mark style="color:#8ca252">morally acceptable</mark>, or is it <mark style="color:gray">not a moral issue</mark>?</p>',
+	'<p>Do you personally believe that <strong>SEX BETWEEN UNMARRIED ADULTES</strong> is <mark style="color:#e6550d">morally unacceptable</mark>, <mark style="color:#8ca252">morally acceptable</mark>, or is it <mark style="color:gray">not a moral issue</mark>?</p>']
 
 /*	var buttons = d3.select("body").append("div").attr("class", "issues")
 	    .selectAll("div")
@@ -70,17 +96,13 @@
 	    .style("width", "100px")
 	    .text(function (d) {return d;});*/
 
+
 	    var svg = d3.select("body").append("div").attr("class", "map")
 	    .append("svg")
 	    .attr("width", width)
 	    .attr("height", height);
 
 	
-
-	queue()
-	.defer(d3.json, "world_countries.json")
-	.defer(d3.csv, "data/1.csv")
-	.await(ready);
 
 	function ready(error, world, questionaire) {
 		if (error) throw error;
@@ -93,6 +115,8 @@
 		    .key(function(d) {return d["Country"]})
 		    .entries(questionaire);
 
+		    debugger;
+
 		    CountrySorted.sort(function(a,b) {return parseFloat(b.values[0]["Morally unacceptable"]) - parseFloat(a.values[0]["Morally unacceptable"]);});
 
 
@@ -104,51 +128,74 @@
 		.attr("d", path)
 		.attr("class", "country")
 		.attr("transform", "translate(50, -20)")
-		.style('stroke', 'white')
+		.style('stroke', '#7f7f7f')
         .style('stroke-width', 0.5)
         .style('fill', function(d) { 
 			if (CountryByName.has(d.properties.name)) {
 				return color(parseFloat(CountryByName.get(d.properties.name)[0]["Morally unacceptable"]));}
 else {
-			return 'lightgrey';
+			return 'white';
 		}
 			})
         .on("mouseover", function(d) {
         	d3.select(this)
-        	.style('fill', 'steelblue');
+        	.style("fill-opacity", 0.5);
 
-				bar.select("rect").filter(function (dd) {
+				frame.filter(function (dd) {
 		    		return dd.key === d.properties.name;
 		    	})
 
-				.style("fill", "steelblue");
+				.style("fill-opacity", 0.5);
+
+				d3.select("#tooltip")
+  .style("left", "60px")
+  .style("top", "220px")
+  .select("#location")
+  .text(d.properties.name);
+
+  d3.select("#tooltip")
+  .select("#unacpt")
+  .text(CountryByName.get(d.properties.name)[0]["Morally unacceptable"] + "%")
+  .style("color", "#e6550d");
+
+  d3.select("#tooltip")
+  .select("#acpt")
+  .text(CountryByName.get(d.properties.name)[0]["Morally acceptable"] + "%")
+  .style("color", "#8ca252");
+
+  d3.select("#tooltip")
+  .select("#notIssu")
+  .text(CountryByName.get(d.properties.name)[0]["Not a moral issue"] + "%")
+  .style("color", "gray");
+
+d3.select("#tooltip").classed("hidden", false);
 			
         })
         .on("mouseout", function(d) {
         	d3.select(this)
-        	.style('fill', function(d) { 
-			if (CountryByName.has(d.properties.name)) {
-				return color(parseFloat(CountryByName.get(d.properties.name)[0]["Morally unacceptable"]));}
-else {
-			return 'lightgrey';
-		}
-			});
+        	.style("fill-opacity", 1);
 
 
-				bar.select("rect").filter(function (dd) {
+				frame.filter(function (dd) {
 		    		return dd.key === d.properties.name;
 		    	})
 
-				.style("fill", "#ff7f0e");
+				.style("fill-opacity", 0);
+				
+		    	//Hide the tooltip
+d3.select("#tooltip").classed("hidden", true);
+
+				
 			
         });
+
 
 
 		//bar chart
 		var chart = svg.append("g")
 		    .attr("width", 300)
 		    .attr("height", 500)
-		    .attr("transform", "translate(1000, 0)");
+		    .attr("transform", "translate(1000, 5)");
 
 		    var countries = d3.keys(CountrySorted);
 
@@ -166,57 +213,23 @@ else {
 
 		    
 
-		    	var tip = d3.tip()
-  .attr('class', 'd3-tip')
-  .offset([-10, 0])
-  .html(function(d) {
-    return "<strong>Percentage:</strong> <span style='color:red'>" + parseFloat(CountryByName.get(d.key)[0]["Morally unacceptable"]) + "</span>";
-  })
-
-	svg.call(tip);
-
 
 		    bar.append("rect")
 		    .attr("width", function (d) {return parseFloat(CountryByName.get(d.key)[0]["Morally unacceptable"]);})
 		    .attr("height", 9)
-		    .attr("fill", "#ff7f0e")
-		    .on('mouseover', function (d) {
-
-		    	d3.select(this)
-        	    .style('fill', 'steelblue');
-
-		    	country.filter(function (dd) {
-		    		return dd.properties.name === d.key;
-		    	})
-		    	.style("fill", "steelblue");
-
-		    	tip.show;})
-
-            .on('mouseout', function (d) {
-
-d3.select(this)
-        	.style('fill', '#ff7f0e');
-
-		    	country.filter(function (dd) {
-		    		return dd.properties.name === d.key;
-		    	})
-		    	.style('fill', function(d) { 
-				return color(parseFloat(CountryByName.get(d.properties.name)[0]["Morally unacceptable"]));
-			});
-
-		    	tip.hide;});
+		    .attr("fill", "#fd8d3c");
 
             bar.append("rect")
             .attr("x", function (d) {return parseFloat(CountryByName.get(d.key)[0]["Morally unacceptable"]);})
 		    .attr("width", function (d) {return parseFloat(CountryByName.get(d.key)[0]["Morally acceptable"]);})
 		    .attr("height", 9)
-		    .attr("fill", "#2ca02c");
+		    .attr("fill", "#8ca252");
 
 		    bar.append("rect")
 		    .attr("x", function (d) {return parseFloat(CountryByName.get(d.key)[0]["Morally unacceptable"]) + parseFloat(CountryByName.get(d.key)[0]["Morally acceptable"]);})
 		    .attr("width", function (d) {return parseFloat(CountryByName.get(d.key)[0]["Not a moral issue"]);})
 		    .attr("height", 9)
-		    .attr("fill", "#c7c7c7");
+		    .attr("fill", "#CDCDC1");
 
 
 
@@ -227,10 +240,10 @@ d3.select(this)
 		    .attr("dy", "0.8em")
 		    .text(function(d) { return d.key});
 
-		    bar.append("rect")
+		    var frame = bar.append("rect")
 		    .attr("width", 100)
 		    .attr("height", 9)
-		    .style("fill", "pink")
+		    .style("fill", "white")
 		    .style("fill-opacity", 0)
 		    .style("stroke", "#7f7f7f")
 		    .style("stroke-width", 1)
@@ -246,12 +259,37 @@ d3.select(this)
 		    	})
 		    	.style("fill", "steelblue");
 
-		    	tip.show;})
+		    	//Update the tooltip position and value
+d3.select("#tooltip")
+  .style("left", "60px")
+  .style("top", "220px")
+  .select("#location")
+  .text(d.key);
+
+  d3.select("#tooltip")
+  .select("#unacpt")
+  .text(d.values[0]["Morally unacceptable"] + "%")
+  .style("color", "#e6550d");
+
+  d3.select("#tooltip")
+  .select("#acpt")
+  .text(d.values[0]["Morally acceptable"] + "%")
+  .style("color", "#8ca252");
+
+  d3.select("#tooltip")
+  .select("#notIssu")
+  .text(d.values[0]["Not a moral issue"] + "%")
+  .style("color", "gray");
+
+
+d3.select("#tooltip").classed("hidden", false);
+
+
+		    })
 
             .on('mouseout', function (d) {
 
 d3.select(this)
-        	.style("fill", "pink")
 		    .style("fill-opacity", 0);
 
 		    	country.filter(function (dd) {
@@ -261,7 +299,9 @@ d3.select(this)
 				return color(parseFloat(CountryByName.get(d.properties.name)[0]["Morally unacceptable"]));
 			});
 
-		    	tip.hide;});
+		    	//Hide the tooltip
+d3.select("#tooltip").classed("hidden", true);
+			});
 
 
 
@@ -271,9 +311,13 @@ d3.select(this)
 
      /*Upate data*/
 
-	var NumOfQues = 1;
-
 	function updateData(d) {
+
+		d3.select("h5").html(questions[d-1]);
+
+		d3.selectAll("svg > *").remove();
+
+
 		var ques = "data/" + d + ".csv";
 
 		queue()
@@ -281,6 +325,8 @@ d3.select(this)
 	.defer(d3.csv, ques)
 	.await(ready);
 	};
+
+	updateData(1);
 	
 
 
